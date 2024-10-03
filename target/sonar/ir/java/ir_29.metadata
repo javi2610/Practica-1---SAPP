@@ -1,0 +1,8 @@
+es.storeapp.business.services.OrderService#cancel(Les/storeapp/business/entities/User;Ljava/lang/Long;)Les/storeapp/business/entities/Order;
+35acacd0629beeba708c760b965f4d1d
+==
+toInvalidStateException es.storeapp.business.utils.ExceptionGenerationUtils#toInvalidStateException(Ljava/lang/String;)Les/storeapp/business/exceptions/InvalidStateException;
+findById es.storeapp.business.repositories.AbstractRepository#findById(Ljava/lang/Long;)Ljava/lang/Object;
+getState es.storeapp.business.entities.Order#getState()Les/storeapp/business/entities/OrderState;
+update es.storeapp.business.repositories.AbstractRepository#update(Ljava/lang/Object;)Ljava/lang/Object;
+setState es.storeapp.business.entities.Order#setState(Les/storeapp/business/entities/OrderState;)V

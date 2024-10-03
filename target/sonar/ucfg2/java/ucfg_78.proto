@@ -1,0 +1,15 @@
+
+@es.storeapp.web.forms.CommentForm#getProductId()Ljava/lang/Long;l
+bC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/web/forms/CommentForm.java ("1*­
+1 (z
+x
+ (
+%0java.lang.Long"__id*P
+
+__unknown_file (4*2#
+!es.storeapp.web.forms.CommentForm"
+	productId""
+ (
+
+%0java.lang.LongB%#
+!es.storeapp.web.forms.CommentFormH

@@ -1,0 +1,6 @@
+es.storeapp.web.exceptions.ErrorHandlingUtils#handleInstanceNotFoundException(Les/storeapp/business/exceptions/InstanceNotFoundException;Lorg/springframework/ui/Model;Ljava/util/Locale;)Ljava/lang/String;
+11e9358b82be4f7ab9541ee6cf844bcc
+==
+addAttribute org.springframework.ui.Model#addAttribute(Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/ui/Model;
+getMessage java.lang.Throwable#getMessage()Ljava/lang/String;
+error org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Throwable;)V

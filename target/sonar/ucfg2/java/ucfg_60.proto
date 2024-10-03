@@ -1,0 +1,15 @@
+
+Des.storeapp.business.entities.Comment#getTimestamp()Ljava/lang/Long;p
+fC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/entities/Comment.javaK K("1*±
+1L L(~
+|
+L L(
+%0java.lang.Long"__id*T
+
+__unknown_file (8*6'
+%es.storeapp.business.entities.Comment"
+	timestamp""
+L L(
+
+%0java.lang.LongB)'
+%es.storeapp.business.entities.CommentH

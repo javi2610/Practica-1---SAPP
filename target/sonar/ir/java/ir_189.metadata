@@ -1,0 +1,3 @@
+es.storeapp.business.entities.Product#toString()Ljava/lang/String;
+b75ca8ddfb56f22c1248dfe48df68e51
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

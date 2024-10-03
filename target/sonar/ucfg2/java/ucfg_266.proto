@@ -1,0 +1,80 @@
+
+`es.storeapp.business.repositories.OrderRepository#findByUserId(Ljava/lang/Long;)Ljava/util/List;|
+rC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/repositories/OrderRepository.java (#"startingBlock*é
+startingBlock# (0ì
+ê
+ ("
+%5"
+__annotate*:
+
+__unknown_file (
+java.lang.SuppressWarnings*6
+
+__unknown_file (
+
+userIdjava.lang.LongX
+V
+) (/
+userIdjava.lang.Long"__annotation*"
+
+__unknown_file (
+
+%5*
+1*Î	
+1 (#¢
+ü
+ (#'
+%0!jakarta.persistence.EntityManager"__id*d
+
+__unknown_file (H*F3
+1es.storeapp.business.repositories.OrderRepository"
+entityManagerí
+è
+E (W
+%1java.lang.String"__id*e
+
+__unknown_file (IG
+ESELECT o FROM Order o WHERE o.user.id = {0} ORDER BY o.timestamp DESC•
+¢
+0 (`
+%2java.lang.String"Wjava.text.MessageFormat#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*7
+
+__unknown_file ("
+java.text.MessageFormat*4
+
+__unknown_file (
+
+%1java.lang.String*6
+
+__unknown_file (
+
+userIdjava.lang.Long™ß
+ (a
+%3jakarta.persistence.Query"\jakarta.persistence.EntityManager#createQuery(Ljava/lang/String;)Ljakarta/persistence/Query;*E
+
+__unknown_file ()
+'
+%0!jakarta.persistence.EntityManager*4
+
+__unknown_file (
+
+%2java.lang.String2createQuery(Ljava/lang/String;)u
+s
+ (b"
+queryjakarta.persistence.Query"__id*=
+
+__unknown_file (!
+
+%3jakarta.persistence.Query±Æ
+ (2
+%4java.util.List"9jakarta.persistence.Query#getResultList()Ljava/util/List;*@
+
+__unknown_file ($
+"
+queryjakarta.persistence.Query2getResultList()""
+ (3
+
+%4java.util.List:$
+$ (/
+userIdjava.lang.LongB53
+1es.storeapp.business.repositories.OrderRepositoryH

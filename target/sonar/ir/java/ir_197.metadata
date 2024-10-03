@@ -1,0 +1,9 @@
+es.storeapp.web.controller.UserController#doGetProfilePage(Les/storeapp/business/entities/User;Lorg/springframework/ui/Model;)Ljava/lang/String;
+13be894ee320a5639272593d8129a69c
+es.storeapp.web.forms.UserProfileForm#instance-init#
+es.storeapp.web.forms.UserProfileForm#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+==
+addAttribute org.springframework.ui.Model#addAttribute(Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/ui/Model;
+getAddress es.storeapp.business.entities.User#getAddress()Ljava/lang/String;
+getEmail es.storeapp.business.entities.User#getEmail()Ljava/lang/String;
+getName es.storeapp.business.entities.User#getName()Ljava/lang/String;

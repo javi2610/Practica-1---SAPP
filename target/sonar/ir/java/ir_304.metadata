@@ -1,0 +1,6 @@
+es.storeapp.business.services.ProductService#findProducts(Ljava/lang/String;)Ljava/util/List;
+dd473045b53d59fcb64d8b1048e0a0c5
+java.lang.String#length()I
+==
+findByCategory es.storeapp.business.repositories.ProductRepository#findByCategory(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;
+findAll es.storeapp.business.repositories.AbstractRepository#findAll(Ljava/lang/String;)Ljava/util/List;

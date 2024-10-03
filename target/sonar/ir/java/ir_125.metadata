@@ -1,0 +1,5 @@
+es.storeapp.business.repositories.AbstractRepository#<init>()V
+78ba61c88e8079d652d8f015bffaae4d
+java.lang.Object#getClass()Ljava/lang/Class;
+org.springframework.core.GenericTypeResolver#resolveTypeArgument(Ljava/lang/Class;Ljava/lang/Class;)Ljava/lang/Class;
+org.slf4j.LoggerFactory#getLogger(Ljava/lang/Class;)Lorg/slf4j/Logger;

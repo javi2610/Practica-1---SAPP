@@ -1,0 +1,28 @@
+
+aes.storeapp.business.repositories.AbstractRepository#create(Ljava/lang/Object;)Ljava/lang/Object;
+uC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/repositories/AbstractRepository.java& &("1*»
+1' '(¥
+¢
+' '('
+%0!jakarta.persistence.EntityManager"__id*g
+
+__unknown_file (K*I6
+4es.storeapp.business.repositories.AbstractRepository"
+entityManagerèå
+' '(%
+
+%1void">jakarta.persistence.EntityManager#persist(Ljava/lang/Object;)V*E
+
+__unknown_file ()
+'
+%0!jakarta.persistence.EntityManager*)
+
+__unknown_file (
+
+entityT2persist(Ljava/lang/Object;)"
+( ((
+
+entityT:
+& &(
+entityTB86
+4es.storeapp.business.repositories.AbstractRepositoryH

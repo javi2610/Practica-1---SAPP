@@ -1,0 +1,6 @@
+es.storeapp.web.session.ShoppingCart#getTotalPrice()I
+bc7e17616b220eb74c39e589de420eda
+==
+stream java.util.Collection#stream()Ljava/util/stream/Stream;
+map java.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+reduce java.util.stream.Stream#reduce(Ljava/lang/Object;Ljava/util/function/BinaryOperator;)Ljava/lang/Object;

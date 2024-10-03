@@ -1,0 +1,15 @@
+
+Aes.storeapp.business.entities.Order#getPrice()Ljava/lang/Integer;n
+dC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/entities/Order.java2 2("1*±
+13 3({
+y
+3 3(
+%0java.lang.Integer"__id*N
+
+__unknown_file (2*0%
+#es.storeapp.business.entities.Order"
+price"%
+3 3(
+
+%0java.lang.IntegerB'%
+#es.storeapp.business.entities.OrderH

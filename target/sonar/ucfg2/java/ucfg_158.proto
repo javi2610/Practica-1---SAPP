@@ -1,0 +1,130 @@
+
+Bes.storeapp.business.entities.Product#toString()Ljava/lang/String;r
+fC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/entities/Product.java‰ ‰("1*¸
+1
+Š Š(€
+~
+
+‹ ‹(
+%0java.lang.Long"__id*T
+
+__unknown_file (8*6'
+%es.storeapp.business.entities.Product"
+	productId˜
+•
+
+‹ ‹(,
+%1&es.storeapp.business.entities.Category"__id*S
+
+__unknown_file (7*5'
+%es.storeapp.business.entities.Product"
+
+category}
+{
+
+‹! ‹(%
+%2java.lang.String"__id*O
+
+__unknown_file (3*1'
+%es.storeapp.business.entities.Product"
+name…
+‚
+
+‹' ‹(2
+%3java.lang.String"__id*V
+
+__unknown_file (:*8'
+%es.storeapp.business.entities.Product"
+description}
+{
+
+‹4 ‹(8
+%4java.lang.String"__id*O
+
+__unknown_file (3*1'
+%es.storeapp.business.entities.Product"
+icon
+}
+
+‹: ‹(?
+%5java.lang.Integer"__id*P
+
+__unknown_file (4*2'
+%es.storeapp.business.entities.Product"
+price…
+‚
+
+‹A ‹(K
+%6java.lang.Integer"__id*U
+
+__unknown_file (9*7'
+%es.storeapp.business.entities.Product"
+
+totalScoreˆ
+…
+
+‹M ‹(Z
+%7java.lang.Integer"__id*X
+
+__unknown_file (<*:'
+%es.storeapp.business.entities.Product"
+totalComments
+}
+
+‹\ ‹(a
+%8java.lang.Integer"__id*P
+
+__unknown_file (4*2'
+%es.storeapp.business.entities.Product"
+salesÅ
+Â
+
+Š ‹(b
+%9java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*™
+
+__unknown_file (}{
+yProduct{productId=%s, category=%s, name=%s, description=%s, icon=%s, price=%s, totalScore=%s, totalComments=%s, sales=%s}*2
+
+__unknown_file (
+
+%0java.lang.Long*J
+
+__unknown_file (.
+,
+%1&es.storeapp.business.entities.Category*4
+
+__unknown_file (
+
+%2java.lang.String*4
+
+__unknown_file (
+
+%3java.lang.String*4
+
+__unknown_file (
+
+%4java.lang.String*5
+
+__unknown_file (
+
+%5java.lang.Integer*5
+
+__unknown_file (
+
+%6java.lang.Integer*5
+
+__unknown_file (
+
+%7java.lang.Integer*5
+
+__unknown_file (
+
+%8java.lang.Integer"&
+
+Š ‹(c
+
+%9java.lang.StringB)'
+%es.storeapp.business.entities.ProductH

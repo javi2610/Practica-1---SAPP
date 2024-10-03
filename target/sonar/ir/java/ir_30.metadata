@@ -1,0 +1,9 @@
+es.storeapp.business.services.OrderService#findByUserById(Ljava/lang/Long;)Ljava/util/List;
+93153334e150f1c63ca2b35a6740930e
+java.text.MessageFormat#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+==
+debug org.slf4j.Logger#debug(Ljava/lang/String;)V
+isDebugEnabled org.slf4j.Logger#isDebugEnabled()Z
+findByUserId es.storeapp.business.repositories.OrderRepository#findByUserId(Ljava/lang/Long;)Ljava/util/List;
+findById es.storeapp.business.repositories.AbstractRepository#findById(Ljava/lang/Long;)Ljava/lang/Object;
+getEmail es.storeapp.business.entities.User#getEmail()Ljava/lang/String;

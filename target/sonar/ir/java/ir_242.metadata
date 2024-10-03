@@ -1,0 +1,5 @@
+es.storeapp.web.session.ShoppingCart#contains(Ljava/lang/Long;)Z
+90d2cc849e05e13d97e0829f47d12eef
+==
+stream java.util.Collection#stream()Ljava/util/stream/Stream;
+anyMatch java.util.stream.Stream#anyMatch(Ljava/util/function/Predicate;)Z

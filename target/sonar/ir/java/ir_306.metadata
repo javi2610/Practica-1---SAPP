@@ -1,0 +1,4 @@
+es.storeapp.business.services.ProductService#findAllCategories()Ljava/util/List;
+5aca16fefb91691521a751d838584df9
+==
+findAll es.storeapp.business.repositories.AbstractRepository#findAll()Ljava/util/List;

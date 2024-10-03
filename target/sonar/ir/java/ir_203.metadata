@@ -1,0 +1,6 @@
+es.storeapp.business.repositories.OrderLineRepository#findIfUserBuyProduct(Ljava/lang/Long;Ljava/lang/Long;)Z
+9d5e37468735487a0cefd82c85e391b7
+java.text.MessageFormat#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+==
+createQuery jakarta.persistence.EntityManager#createQuery(Ljava/lang/String;)Ljakarta/persistence/Query;
+getSingleResult jakarta.persistence.Query#getSingleResult()Ljava/lang/Object;

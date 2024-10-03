@@ -1,0 +1,47 @@
+
+ues.storeapp.business.services.ProductService#findProductById(Ljava/lang/Long;)Les/storeapp/business/entities/Product;w
+mC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/services/ProductService.java: :(""startingBlock*¤
+startingBlock:" :(+­
+ª
+9 9($
+%2"
+__annotate*X
+
+__unknown_file (<:
+8org.springframework.transaction.annotation.Transactional*2
+
+__unknown_file (
+
+idjava.lang.LongT
+R
+:( :(*
+idjava.lang.Long"__annotation*"
+
+__unknown_file (
+
+%2*
+1*Ç
+1; ;( ³
+°
+; ;( 9
+%03es.storeapp.business.repositories.ProductRepository"__id*c
+
+__unknown_file (G*E.
+,es.storeapp.business.services.ProductService"
+productRepositoryÆÃ
+; ;(-+
+%1%es.storeapp.business.entities.Product"aes.storeapp.business.repositories.AbstractRepository#findById(Ljava/lang/Long;)Ljava/lang/Object;*W
+
+__unknown_file (;
+9
+%03es.storeapp.business.repositories.ProductRepository*2
+
+__unknown_file (
+
+idjava.lang.Long2findById(Ljava/lang/Long;)"9
+; ;(.-
++
+%1%es.storeapp.business.entities.Product: 
+:# :(*
+idjava.lang.LongB0.
+,es.storeapp.business.services.ProductServiceH

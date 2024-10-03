@@ -1,0 +1,11 @@
+es.storeapp.business.services.UserService#create(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[B)Les/storeapp/business/entities/User;
+cf8cd2ca4e17636c1909aee1b62391ed
+es.storeapp.business.entities.User#instance-init#
+es.storeapp.business.entities.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+es.storeapp.business.services.UserService#saveProfileImage(Ljava/lang/Long;Ljava/lang/String;[B)V
+org.mindrot.jbcrypt.BCrypt#hashpw(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+==
+findByEmail es.storeapp.business.repositories.UserRepository#findByEmail(Ljava/lang/String;)Les/storeapp/business/entities/User;
+create es.storeapp.business.repositories.AbstractRepository#create(Ljava/lang/Object;)Ljava/lang/Object;
+toDuplicatedResourceException es.storeapp.business.utils.ExceptionGenerationUtils#toDuplicatedResourceException(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Les/storeapp/business/exceptions/DuplicatedResourceException;
+getUserId es.storeapp.business.entities.User#getUserId()Ljava/lang/Long;

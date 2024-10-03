@@ -1,0 +1,151 @@
+
+êes.storeapp.web.controller.UserController#doGetProfilePage(Les/storeapp/business/entities/User;Lorg/springframework/ui/Model;)Ljava/lang/String;t
+jC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/web/controller/UserController.javaX X(""startingBlock*Ç
+startingBlockX" Y(/æ
+ª
+W W(0
+%10"
+__annotate*R
+
+__unknown_file (64
+2org.springframework.web.bind.annotation.GetMapping*H
+
+__unknown_file (,
+*
+user"es.storeapp.business.entities.Userƒ
+¡
+X# X(L
+%11"
+__annotate*X
+
+__unknown_file (<:
+8org.springframework.web.bind.annotation.SessionAttribute*H
+
+__unknown_file (,
+*
+user"es.storeapp.business.entities.Userë
+é
+XR X(V*
+user"es.storeapp.business.entities.User"__annotation*#
+
+__unknown_file (
+
+%10*#
+
+__unknown_file (
+
+%11FD
+Y# Y(.%
+modelorg.springframework.ui.Model"java.util.HashMap*
+1*Ã
+1Z3 Z(7∫∑
+Z3 Z(A
+%0java.lang.String">es.storeapp.business.entities.User#getName()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+user"es.storeapp.business.entities.User2	getName()ºπ
+[ [(
+%1java.lang.String"?es.storeapp.business.entities.User#getEmail()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+user"es.storeapp.business.entities.User2
+getEmail()¿Ω
+[! [(2
+%2java.lang.String"Aes.storeapp.business.entities.User#getAddress()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+user"es.storeapp.business.entities.User2getAddress()`^
+Z# Z(2+
+%3%es.storeapp.web.forms.UserProfileForm"%es.storeapp.web.forms.UserProfileFormÁ
+‰
+Z [(3
+%4"ees.storeapp.web.forms.UserProfileForm#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*I
+
+__unknown_file (-
++
+%3%es.storeapp.web.forms.UserProfileForm*4
+
+__unknown_file (
+
+%0java.lang.String*4
+
+__unknown_file (
+
+%1java.lang.String*4
+
+__unknown_file (
+
+%2java.lang.Stringç
+ä
+Z [(4-
+form%es.storeapp.web.forms.UserProfileForm"__id*I
+
+__unknown_file (-
++
+%3%es.storeapp.web.forms.UserProfileForm[
+Y
+\ \(6
+%5java.lang.String"__id*/
+
+__unknown_file (
+userProfileFormÉ
+Ä
+\ \(="
+%6org.springframework.ui.Model"__mapSet*C
+
+__unknown_file ('
+%
+modelorg.springframework.ui.Model*4
+
+__unknown_file (
+
+%5java.lang.String*K
+
+__unknown_file (/
+-
+form%es.storeapp.web.forms.UserProfileFormS
+Q
+] ](*
+%7java.lang.String"__id*'
+
+__unknown_file (	
+Profile∑
+¥
+] ](*
+%8"Horg.springframework.web.servlet.ModelAndView#<init>(Ljava/lang/String;)V*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%7java.lang.Stringâ
+Ü
+] ](*
+%9"template!Profile*I
+
+__unknown_file (-"+
+)es.storeapp.web.controller.UserController*C
+
+__unknown_file ('
+%
+modelorg.springframework.ui.Model*(
+
+__unknown_file (
+
+/profile*(
+
+__unknown_file (
+
+/profile"$
+] ](+
+
+%7java.lang.String:6
+X# X(W*
+user"es.storeapp.business.entities.User:1
+Y# Y(.%
+modelorg.springframework.ui.ModelB-+
+)es.storeapp.web.controller.UserControllerH

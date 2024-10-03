@@ -1,0 +1,65 @@
+
+Ces.storeapp.business.entities.Category#toString()Ljava/lang/String;q
+gC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/entities/Category.javaH H("1*Ê
+1I I(€
+~
+J J(
+%0java.lang.Long"__id*V
+
+__unknown_file (:*8(
+&es.storeapp.business.entities.Category"
+
+categoryId|
+z
+J J(
+%1java.lang.String"__id*P
+
+__unknown_file (4*2(
+&es.storeapp.business.entities.Category"
+name„
+
+J J()
+%2java.lang.String"__id*W
+
+__unknown_file (;*9(
+&es.storeapp.business.entities.Category"
+description|
+z
+J+ J(/
+%3java.lang.String"__id*P
+
+__unknown_file (4*2(
+&es.storeapp.business.entities.Category"
+iconŽ
+‹
+I J(=
+%4java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*i
+
+__unknown_file (MK
+ICategory{categoryId=%s, name=%s, description=%s, icon=%s, highlighted=%s}*2
+
+__unknown_file (
+
+%0java.lang.Long*4
+
+__unknown_file (
+
+%1java.lang.String*4
+
+__unknown_file (
+
+%2java.lang.String*4
+
+__unknown_file (
+
+%3java.lang.String*"
+
+__unknown_file (
+"""$
+I J(>
+
+%4java.lang.StringB*(
+&es.storeapp.business.entities.CategoryH

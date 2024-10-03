@@ -1,0 +1,302 @@
+
+àes.storeapp.web.controller.UserController#doRemoveProfileImage(Les/storeapp/business/entities/User;Ljakarta/servlet/http/HttpSession;Lorg/springframework/web/servlet/mvc/support/RedirectAttributes;Ljava/util/Locale;Lorg/springframework/ui/Model;)Ljava/lang/String;v
+jC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/web/controller/UserController.java§ §(&"startingBlock*Ö
+
+startingBlock
+§& ®(3¡
+æ
+
+£ £(>
+%22"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.PostMapping*H
+
+__unknown_file (,
+*
+user"es.storeapp.business.entities.User∆
+√
+
+§' §(P
+%23"
+__annotate*X
+
+__unknown_file (<:
+8org.springframework.web.bind.annotation.SessionAttribute*H
+
+__unknown_file (,
+*
+user"es.storeapp.business.entities.Userì
+ê
+
+§V §(Z*
+user"es.storeapp.business.entities.User"__annotation*#
+
+__unknown_file (
+
+%22*#
+
+__unknown_file (
+
+%23¬
+ø
+
+£ £(>
+%24"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.PostMapping*I
+
+__unknown_file (-
++
+session jakarta.servlet.http.HttpSessionn
+l
+
+•3 •(:+
+session jakarta.servlet.http.HttpSession"__annotation*#
+
+__unknown_file (
+
+%24±
+Æ
+
+£ £(>
+%25"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.PostMapping*8
+
+__unknown_file (
+
+localejava.util.Locale]
+[
+
+ß. ß(4
+localejava.util.Locale"__annotation*#
+
+__unknown_file (
+
+%25wu
+
+¶' ¶(MT
+redirectAttributes>org.springframework.web.servlet.mvc.support.RedirectAttributes"java.util.HashMap*
+11*◊
+6
+Æ Ø(N¿
+Ω
+
+Æ Ø(NE
+%10>org.springframework.web.servlet.mvc.support.RedirectAttributes"__mapSet*r
+
+__unknown_file (V
+T
+redirectAttributes>org.springframework.web.servlet.mvc.support.RedirectAttributes*4
+
+__unknown_file (
+
+%5java.lang.String*4
+
+__unknown_file (
+
+%9java.lang.String*
+1*•
+7
+Æ Æ(\
+Z
+
+Æ1 Æ(J
+%5java.lang.String"__id*.
+
+__unknown_file (
+successMessage§
+°
+
+ÆL Æ(Y/
+%6)org.springframework.context.MessageSource"__id*\
+
+__unknown_file (@*>+
+)es.storeapp.web.controller.UserController"
+messageSourcee
+c
+
+Ø Ø(4
+%7java.lang.String"__id*7
+
+__unknown_file (
+profile.updated.success<:
+
+Ø6 Ø(D
+%8java.lang.Object[]"java.lang.Object[]‰·
+
+ÆL Ø(M
+%9java.lang.String"org.springframework.context.MessageSource#getMessage(Ljava/lang/String;[Ljava/lang/Object;Ljava/util/Locale;)Ljava/lang/String;*M
+
+__unknown_file (1
+/
+%6)org.springframework.context.MessageSource*4
+
+__unknown_file (
+
+%7java.lang.String*6
+
+__unknown_file (
+
+%8java.lang.Object[]*8
+
+__unknown_file (
+
+localejava.util.Locale2CgetMessage(Ljava/lang/String;[Ljava/lang/Object;Ljava/util/Locale;)*
+6*ı
+8
+¨ ¨(Cê
+ç
+
+¨ ¨(C1
+updatedUser"es.storeapp.business.entities.User"__id*F
+
+__unknown_file (*
+(
+%2"es.storeapp.business.entities.UserR
+P
+
+≠! ≠(7
+%3java.lang.String"__id*$
+
+__unknown_file (
+user˜Ù
+
+≠ ≠(E
+
+%4void"Tjakarta.servlet.http.HttpSession#setAttribute(Ljava/lang/String;Ljava/lang/Object;)V*I
+
+__unknown_file (-
++
+session jakarta.servlet.http.HttpSession*4
+
+__unknown_file (
+
+%3java.lang.String*O
+
+__unknown_file (3
+1
+updatedUser"es.storeapp.business.entities.User22setAttribute(Ljava/lang/String;Ljava/lang/Object;)*
+7*ﬂ
+9
+¨ ¨(C»≈
+
+¨ ¨(C(
+%2"es.storeapp.business.entities.User"kes.storeapp.business.services.UserService#removeImage(Ljava/lang/Long;)Les/storeapp/business/entities/User;*M
+
+__unknown_file (1
+/
+%0)es.storeapp.business.services.UserService*2
+
+__unknown_file (
+
+%1java.lang.Long2removeImage(Ljava/lang/Long;)*
+8*˘
+10
+¨ ¨(%¢
+ü
+
+¨ ¨(%/
+%0)es.storeapp.business.services.UserService"__id*Z
+
+__unknown_file (>*<+
+)es.storeapp.web.controller.UserController"
+userServiceºπ
+
+¨2 ¨(B
+%1java.lang.Long">es.storeapp.business.entities.User#getUserId()Ljava/lang/Long;*H
+
+__unknown_file (,
+*
+user"es.storeapp.business.entities.User2getUserId()*
+9*É
+11
+™ ™(k
+i
+
+™ ™(1
+updatedUser"es.storeapp.business.entities.User"__id*"
+
+__unknown_file (
+""*
+10*—
+1
+µ µ(X
+V
+
+µ µ(&
+%17java.lang.String"__id*)
+
+__unknown_file (
+	redirect:W
+U
+
+µ) µ(H
+%18java.lang.String"__id*(
+
+__unknown_file (
+
+/profileÑ
+Å
+
+µ µ(H
+%19java.lang.String"__concat*'
+
+µ µ(&
+
+%17java.lang.String*'
+
+µ) µ(H
+
+%18java.lang.Stringª
+∏
+
+µ µ(H
+%20"Horg.springframework.web.servlet.ModelAndView#<init>(Ljava/lang/String;)V*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+%19java.lang.Stringû
+õ
+
+µ µ(H
+%21"template!__all*I
+
+__unknown_file (-"+
+)es.storeapp.web.controller.UserController*r
+
+__unknown_file (V
+T
+redirectAttributes>org.springframework.web.servlet.mvc.support.RedirectAttributes*7
+
+__unknown_file (
+/profile/image//profile"'
+
+µ µ(I
+
+%19java.lang.String:8
+
+§' §([*
+user"es.storeapp.business.entities.User:9
+
+•' •(;+
+session jakarta.servlet.http.HttpSession:b
+
+¶' ¶(MT
+redirectAttributes>org.springframework.web.servlet.mvc.support.RedirectAttributes:(
+
+ß' ß(5
+localejava.util.Locale:3
+
+®' ®(2%
+modelorg.springframework.ui.ModelB-+
+)es.storeapp.web.controller.UserControllerH

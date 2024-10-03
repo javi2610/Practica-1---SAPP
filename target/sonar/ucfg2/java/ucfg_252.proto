@@ -1,0 +1,21 @@
+
+Xes.storeapp.business.services.ProductService#findHighlightedCategories()Ljava/util/List;w
+mC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/services/ProductService.javaD D(3"1*Ô
+1E E(!µ
+²
+E E(!:
+%04es.storeapp.business.repositories.CategoryRepository"__id*d
+
+__unknown_file (H*F.
+,es.storeapp.business.services.ProductService"
+categoryRepositoryèå
+E E(3
+%1java.util.List"Ves.storeapp.business.repositories.CategoryRepository#findHighlighted()Ljava/util/List;*X
+
+__unknown_file (<
+:
+%04es.storeapp.business.repositories.CategoryRepository2findHighlighted()""
+E E(4
+
+%1java.util.ListB0.
+,es.storeapp.business.services.ProductServiceH

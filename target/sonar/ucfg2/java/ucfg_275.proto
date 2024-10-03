@@ -1,0 +1,125 @@
+
+kes.storeapp.business.services.UserService#removeImage(Ljava/lang/Long;)Les/storeapp/business/entities/User;v
+jC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/services/UserService.javaÀ À("startingBlock*¬
+startingBlock
+À À($°
+­
+
+¿ ¿(
+%13"
+__annotate*X
+
+__unknown_file (<:
+8org.springframework.transaction.annotation.Transactional*2
+
+__unknown_file (
+
+idjava.lang.LongW
+U
+
+À! À(#
+idjava.lang.Long"__annotation*#
+
+__unknown_file (
+
+%13*
+9*Ê
+7
+Ã Ã(3³
+°
+
+Ã Ã(3
+
+%3void"aes.storeapp.business.services.UserService#deleteProfileImage(Ljava/lang/Long;Ljava/lang/String;)V*I
+
+__unknown_file (-+
+)es.storeapp.business.services.UserService*2
+
+__unknown_file (
+
+idjava.lang.Long*4
+
+__unknown_file (
+
+%2java.lang.String*
+1*Õ
+8
+Ã Ã(¾»
+
+Ã# Ã(2
+%2java.lang.String"?es.storeapp.business.entities.User#getImage()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+user"es.storeapp.business.entities.User2
+getImage()*
+7*”
+9
+Á Á("¬
+©
+
+Á Á("6
+%00es.storeapp.business.repositories.UserRepository"__id*]
+
+__unknown_file (A*?+
+)es.storeapp.business.services.UserService"
+userRepositoryÂ¿
+
+Á Á(/(
+%1"es.storeapp.business.entities.User"aes.storeapp.business.repositories.AbstractRepository#findById(Ljava/lang/Long;)Ljava/lang/Object;*T
+
+__unknown_file (8
+6
+%00es.storeapp.business.repositories.UserRepository*2
+
+__unknown_file (
+
+idjava.lang.Long2findById(Ljava/lang/Long;)‰
+†
+
+Á Á(0*
+user"es.storeapp.business.entities.User"__id*F
+
+__unknown_file (*
+(
+%1"es.storeapp.business.entities.User*
+8*Ä
+1
+È È(êç
+
+È È(
+%10void"@es.storeapp.business.entities.User#setImage(Ljava/lang/String;)V*H
+
+__unknown_file (,
+*
+user"es.storeapp.business.entities.User*"
+
+__unknown_file (
+""2setImage(Ljava/lang/String;)­
+ª
+
+É É(7
+%110es.storeapp.business.repositories.UserRepository"__id*]
+
+__unknown_file (A*?+
+)es.storeapp.business.services.UserService"
+userRepositoryÚ×
+
+É É(*)
+%12"es.storeapp.business.entities.User"aes.storeapp.business.repositories.AbstractRepository#update(Ljava/lang/Object;)Ljava/lang/Object;*U
+
+__unknown_file (9
+7
+%110es.storeapp.business.repositories.UserRepository*H
+
+__unknown_file (,
+*
+user"es.storeapp.business.entities.User2update(Ljava/lang/Object;)"9
+
+É É(++
+)
+%12"es.storeapp.business.entities.User:"
+
+À À(#
+idjava.lang.LongB-+
+)es.storeapp.business.services.UserServiceH`

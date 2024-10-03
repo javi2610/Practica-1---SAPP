@@ -1,0 +1,6 @@
+es.storeapp.business.repositories.ProductRepository#findByCategory(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;
+b0ace8b56672e12e4667b0d28b9fe2cf
+java.text.MessageFormat#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+==
+createQuery jakarta.persistence.EntityManager#createQuery(Ljava/lang/String;)Ljakarta/persistence/Query;
+getResultList jakarta.persistence.Query#getResultList()Ljava/util/List;

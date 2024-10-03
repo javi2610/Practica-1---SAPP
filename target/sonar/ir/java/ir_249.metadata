@@ -1,0 +1,8 @@
+es.storeapp.web.interceptors.ShoppingCartInterceptor#preHandle(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/Object;)Z
+65bcf40887d17a67c1458176946067b6
+es.storeapp.web.session.ShoppingCart#instance-init#
+es.storeapp.web.session.ShoppingCart#<init>()V
+==
+getSession jakarta.servlet.http.HttpServletRequest#getSession(Z)Ljakarta/servlet/http/HttpSession;
+getAttribute jakarta.servlet.http.HttpSession#getAttribute(Ljava/lang/String;)Ljava/lang/Object;
+setAttribute jakarta.servlet.http.HttpSession#setAttribute(Ljava/lang/String;Ljava/lang/Object;)V

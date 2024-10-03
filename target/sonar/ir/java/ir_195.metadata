@@ -1,0 +1,8 @@
+es.storeapp.web.controller.UserController#doLogout(Ljakarta/servlet/http/HttpSession;Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/String;)Ljava/lang/String;
+a941c15d5503b9462ee29eb5123da36f
+jakarta.servlet.http.Cookie#<init>(Ljava/lang/String;Ljava/lang/String;)V
+jakarta.servlet.http.Cookie#instance-init#
+==
+invalidate jakarta.servlet.http.HttpSession#invalidate()V
+setMaxAge jakarta.servlet.http.Cookie#setMaxAge(I)V
+addCookie jakarta.servlet.http.HttpServletResponse#addCookie(Ljakarta/servlet/http/Cookie;)V

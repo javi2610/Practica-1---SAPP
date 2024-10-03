@@ -1,0 +1,6 @@
+es.storeapp.web.controller.UserController#doGetLoginPage(Lorg/springframework/ui/Model;)Ljava/lang/String;
+d5d3d349adf4ed3fe4e1e8a45ab8651b
+es.storeapp.web.forms.LoginForm#instance-init#
+es.storeapp.web.forms.LoginForm#<init>()V
+==
+addAttribute org.springframework.ui.Model#addAttribute(Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/ui/Model;

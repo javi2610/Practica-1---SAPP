@@ -1,0 +1,15 @@
+
+Hes.storeapp.business.entities.OrderLine#getOrderLineId()Ljava/lang/Long;r
+hC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/entities/OrderLine.java% %("1*·
+1& &(ƒ
+€
+& &(
+%0java.lang.Long"__id*X
+
+__unknown_file (<*:)
+'es.storeapp.business.entities.OrderLine"
+orderLineId""
+& &(
+
+%0java.lang.LongB+)
+'es.storeapp.business.entities.OrderLineH

@@ -1,0 +1,4 @@
+es.storeapp.business.services.ProductService#findHighlightedCategories()Ljava/util/List;
+16c5f3c345d185163467d7f0f04cd2bc
+==
+findHighlighted es.storeapp.business.repositories.CategoryRepository#findHighlighted()Ljava/util/List;

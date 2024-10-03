@@ -1,0 +1,36 @@
+
+5__sonar_lambda_0$es.storeapp.web.session.ShoppingCarto
+eC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/web/session/ShoppingCart.java* (X"startingBlock*¨
+startingBlock* (X‡
+„
+
+__unknown_file (
+idjava.lang.Long"__id*L
+
+__unknown_file (0*.&
+$es.storeapp.web.session.ShoppingCart"
+id*
+1*Å
+16 (=ÉÆ
+6 (L
+%3java.lang.Long"Des.storeapp.business.entities.Product#getProductId()Ljava/lang/Long;*N
+
+__unknown_file (2
+0
+product%es.storeapp.business.entities.Product2getProductId()ÌÉ
+6 (W
+%4boolean"*java.lang.Long#equals(Ljava/lang/Object;)Z*2
+
+__unknown_file (
+
+%3java.lang.Long*2
+
+__unknown_file (
+
+idjava.lang.Long2equals(Ljava/lang/Object;)"
+5 (X
+
+%4boolean:<
+* (10
+product%es.storeapp.business.entities.ProductB 
+java.util.function.Predicate

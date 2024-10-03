@@ -1,0 +1,7 @@
+es.storeapp.web.controller.ProductController#doGetProductsPage(Les/storeapp/web/forms/ProductSearchForm;Lorg/springframework/ui/Model;)Ljava/lang/String;
+5c016d77f427c25f597e687a25f04037
+==
+findAllCategories es.storeapp.business.services.ProductService#findAllCategories()Ljava/util/List;
+addAttribute org.springframework.ui.Model#addAttribute(Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/ui/Model;
+findProducts es.storeapp.business.services.ProductService#findProducts(Ljava/lang/String;)Ljava/util/List;
+getCategory es.storeapp.web.forms.ProductSearchForm#getCategory()Ljava/lang/String;

@@ -1,0 +1,21 @@
+
+Pes.storeapp.business.services.ProductService#findAllCategories()Ljava/util/List;w
+mC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/services/ProductService.java? ?(+"1*Ä
+1@ @(!µ
+²
+@ @(!:
+%04es.storeapp.business.repositories.CategoryRepository"__id*d
+
+__unknown_file (H*F.
+,es.storeapp.business.services.ProductService"
+categoryRepositoryØÕ
+@ @(+
+%1java.util.List"Nes.storeapp.business.repositories.AbstractRepository#findAll()Ljava/util/List;*X
+
+__unknown_file (<
+:
+%04es.storeapp.business.repositories.CategoryRepository2	findAll()""
+@ @(,
+
+%1java.util.ListB0.
+,es.storeapp.business.services.ProductServiceH

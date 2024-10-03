@@ -1,0 +1,22 @@
+es.storeapp.web.controller.OrderController#doCompleteOrder(Les/storeapp/web/session/ShoppingCart;Lorg/springframework/ui/Model;Ljava/util/Locale;)Ljava/lang/String;
+a25446dc2c80feb02dbc75911d2b424d
+es.storeapp.web.forms.OrderForm#<init>()V
+java.text.MessageFormat#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+java.util.ArrayList#instance-init#
+java.util.ArrayList#<init>(Ljava/util/Collection;)V
+es.storeapp.web.forms.OrderForm#instance-init#
+==
+getName es.storeapp.business.entities.Product#getName()Ljava/lang/String;
+getCategory es.storeapp.business.entities.Product#getCategory()Les/storeapp/business/entities/Category;
+addAttribute org.springframework.ui.Model#addAttribute(Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/ui/Model;
+get java.util.List#get(I)Ljava/lang/Object;
+getName es.storeapp.business.entities.Category#getName()Ljava/lang/String;
+getProducts es.storeapp.web.session.ShoppingCart#getProducts()Ljava/util/List;
+getName es.storeapp.web.forms.OrderForm#getName()Ljava/lang/String;
+debug org.slf4j.Logger#debug(Ljava/lang/String;)V
+isDebugEnabled org.slf4j.Logger#isDebugEnabled()Z
+setPrice es.storeapp.web.forms.OrderForm#setPrice(I)V
+getTotalPrice es.storeapp.web.session.ShoppingCart#getTotalPrice()I
+setName es.storeapp.web.forms.OrderForm#setName(Ljava/lang/String;)V
+size java.util.List#size()I
+getMessage org.springframework.context.MessageSource#getMessage(Ljava/lang/String;[Ljava/lang/Object;Ljava/util/Locale;)Ljava/lang/String;

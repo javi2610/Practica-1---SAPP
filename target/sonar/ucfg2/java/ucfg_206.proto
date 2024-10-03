@@ -1,0 +1,49 @@
+
+5es.storeapp.web.session.ShoppingCart#getTotalPrice()Io
+eC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/web/session/ShoppingCart.java ("1*Ý
+1 (|
+z
+ (
+%0java.util.List"__id*R
+
+__unknown_file (6*4&
+$es.storeapp.web.session.ShoppingCart"
+
+products¢Ÿ
+ ( 
+%1java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*2
+
+__unknown_file (
+
+%0java.util.List2stream()š
+—
+% (B!
+%2java.util.function.Function"__declareFunction*U
+
+__unknown_file (97
+5__sonar_lambda_1$es.storeapp.web.session.ShoppingCart£ 
+ (C
+%4java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*;
+
+__unknown_file (
+
+%1java.util.stream.Stream*?
+
+__unknown_file (#
+!
+%2java.util.function.Function2"map(Ljava/util/function/Function;)ÓÐ
+ (d
+%5java.lang.Integer"gjava.util.stream.Stream#reduce(Ljava/lang/Object;Ljava/util/function/BinaryOperator;)Ljava/lang/Object;*;
+
+__unknown_file (
+
+%4java.util.stream.Stream*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2=reduce(Ljava/lang/Object;Ljava/util/function/BinaryOperator;)"
+ (e
+""B(&
+$es.storeapp.web.session.ShoppingCartHX

@@ -1,0 +1,158 @@
+
+èes.storeapp.web.controller.HomeController#doGetHome(Lorg/springframework/ui/Model;Ljakarta/servlet/http/HttpServletResponse;)Ljava/lang/String;t
+jC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/web/controller/HomeController.java ("startingBlock*ﬁ
+2 (N
+L
+ (
+%6org.slf4j.Logger"__id*"
+
+__unknown_file (
+""©
+¶
+ (Q
+%7java.lang.String"Wjava.text.MessageFormat#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*7
+
+__unknown_file ("
+java.text.MessageFormat*4
+
+__unknown_file (
+Home categories: {0}*:
+
+__unknown_file (
+
+
+categoriesjava.util.ListÕ 
+ (R
+
+%8void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*4
+
+__unknown_file (
+
+%6org.slf4j.Logger*4
+
+__unknown_file (
+
+%7java.lang.String2debug(Ljava/lang/String;)*
+1*ª
+3$ (2¶
+£
+$ (22
+%0,es.storeapp.business.services.ProductService"__id*]
+
+__unknown_file (A*?+
+)es.storeapp.web.controller.HomeController"
+productServiceÏÈ
+$ (N
+%1java.util.List"Xes.storeapp.business.services.ProductService#findHighlightedCategories()Ljava/util/List;*P
+
+__unknown_file (4
+2
+%0,es.storeapp.business.services.ProductService2findHighlightedCategories()d
+b
+ (O
+
+categoriesjava.util.List"__id*2
+
+__unknown_file (
+
+%1java.util.ListV
+T
+ (/
+%2java.lang.String"__id**
+
+__unknown_file (
+
+categoriesÚ
+Ô
+ (<"
+%3org.springframework.ui.Model"__mapSet*C
+
+__unknown_file ('
+%
+modelorg.springframework.ui.Model*4
+
+__unknown_file (
+
+%2java.lang.String*:
+
+__unknown_file (
+
+
+categoriesjava.util.ListN
+L
+ (
+%4org.slf4j.Logger"__id*"
+
+__unknown_file (
+""àÖ
+ ("
+%5boolean""org.slf4j.Logger#isDebugEnabled()Z*4
+
+__unknown_file (
+
+%4org.slf4j.Logger2isDebugEnabled()*
+2
+1*®
+startingBlock (F»
+≈
+ (2
+%12"
+__annotate*R
+
+__unknown_file (64
+2org.springframework.web.bind.annotation.GetMapping*R
+
+__unknown_file (6
+4
+response(jakarta.servlet.http.HttpServletResponseu
+s
+= (E4
+response(jakarta.servlet.http.HttpServletResponse"__annotation*#
+
+__unknown_file (
+
+%12FD
+ ((%
+modelorg.springframework.ui.Model"java.util.HashMap*
+3*æ
+1 (Q
+O
+ ("
+%9java.lang.String"__id*%
+
+__unknown_file (	
+Index∏
+µ
+ ("
+%10"Horg.springframework.web.servlet.ModelAndView#<init>(Ljava/lang/String;)V*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%9java.lang.String˙
+˜
+ ("
+%11"template!Index*I
+
+__unknown_file (-"+
+)es.storeapp.web.controller.HomeController*C
+
+__unknown_file ('
+%
+modelorg.springframework.ui.Model*!
+
+__unknown_file (
+/*!
+
+__unknown_file (
+/"$
+ (#
+
+%9java.lang.String:1
+ ((%
+modelorg.springframework.ui.Model:@
+) (E4
+response(jakarta.servlet.http.HttpServletResponseB-+
+)es.storeapp.web.controller.HomeControllerH

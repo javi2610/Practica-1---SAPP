@@ -1,0 +1,8 @@
+es.storeapp.web.interceptors.LoggerInterceptor#afterCompletion(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/Object;Ljava/lang/Exception;)V
+a1ca07ecb2b964529b5db4ffb7c2fc37
+java.text.MessageFormat#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+java.time.LocalDateTime#now()Ljava/time/LocalDateTime;
+==
+getRequestURL jakarta.servlet.http.HttpServletRequest#getRequestURL()Ljava/lang/StringBuffer;
+debug org.slf4j.Logger#debug(Ljava/lang/String;)V
+isDebugEnabled org.slf4j.Logger#isDebugEnabled()Z

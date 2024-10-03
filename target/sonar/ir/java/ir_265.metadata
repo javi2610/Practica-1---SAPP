@@ -1,0 +1,3 @@
+es.storeapp.Application#main([Ljava/lang/String;)V
+07876256d9118a611d9bcfa4105ce264
+org.springframework.boot.SpringApplication#run(Ljava/lang/Class;[Ljava/lang/String;)Lorg/springframework/context/ConfigurableApplicationContext;

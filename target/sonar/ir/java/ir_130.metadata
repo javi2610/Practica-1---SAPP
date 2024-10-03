@@ -1,0 +1,7 @@
+es.storeapp.business.repositories.AbstractRepository#findAll(Ljava/lang/String;)Ljava/util/List;
+58bf644801e503f34a3a856e5759c506
+java.text.MessageFormat#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+java.lang.Class#getSimpleName()Ljava/lang/String;
+==
+createQuery jakarta.persistence.EntityManager#createQuery(Ljava/lang/String;)Ljakarta/persistence/Query;
+getResultList jakarta.persistence.Query#getResultList()Ljava/util/List;

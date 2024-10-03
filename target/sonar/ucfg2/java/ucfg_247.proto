@@ -1,0 +1,209 @@
+
+«es.storeapp.web.interceptors.AuthenticatedUserInterceptor#preHandle(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/Object;)Z„
+zC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/web/interceptors/AuthenticatedUserInterceptor.java ("startingBlock*²
+2 (ÕÒ
+" (:
+%4java.lang.String"Jjakarta.servlet.http.HttpServletRequest#getContextPath()Ljava/lang/String;*P
+
+__unknown_file (4
+2
+request'jakarta.servlet.http.HttpServletRequest2getContextPath()R
+P
+= (U
+%5java.lang.String"__id*&
+
+__unknown_file (
+
+/loginz
+x
+" (U
+%6java.lang.String"__concat*$
+" (:
+
+%4java.lang.String*$
+= (U
+
+%5java.lang.StringM
+K
+ ($
+%7java.lang.String"__id*!
+
+__unknown_file (
+?z
+x
+" ($
+%8java.lang.String"__concat*$
+" (U
+
+%6java.lang.String*$
+ ($
+
+%7java.lang.StringP
+N
+' (:
+%9java.lang.String"__id*$
+
+__unknown_file (
+next{
+y
+" (:
+%10java.lang.String"__concat*$
+" ($
+
+%8java.lang.String*$
+' (:
+
+%9java.lang.StringN
+L
+= (R
+%11java.lang.String"__id*!
+
+__unknown_file (
+=}
+{
+" (R
+%12java.lang.String"__concat*%
+" (:
+
+%10java.lang.String*%
+= (R
+
+%11java.lang.StringàÝ
+U (l
+%13java.lang.StringBuffer"Ojakarta.servlet.http.HttpServletRequest#getRequestURL()Ljava/lang/StringBuffer;*P
+
+__unknown_file (4
+2
+request'jakarta.servlet.http.HttpServletRequest2getRequestURL()„
+
+" (l
+%14java.lang.String"__concat*%
+" (R
+
+%12java.lang.String*+
+U (l
+
+%13java.lang.StringBuffer“
+ (m
+%15void"Jjakarta.servlet.http.HttpServletResponse#sendRedirect(Ljava/lang/String;)V*R
+
+__unknown_file (6
+4
+response(jakarta.servlet.http.HttpServletResponse*5
+
+__unknown_file (
+
+%14java.lang.String2 sendRedirect(Ljava/lang/String;)"
+ (
+""*¨
+3 (%íê
+ (2&
+%0 jakarta.servlet.http.HttpSession"Vjakarta.servlet.http.HttpServletRequest#getSession()Ljakarta/servlet/http/HttpSession;*P
+
+__unknown_file (4
+2
+request'jakarta.servlet.http.HttpServletRequest2getSession()†
+ƒ
+ (3+
+session jakarta.servlet.http.HttpSession"__id*D
+
+__unknown_file ((
+&
+%0 jakarta.servlet.http.HttpSessionP
+N
+  (6
+%1java.lang.String"__id*$
+
+__unknown_file (
+userš
+ (7
+%2java.lang.Object"Sjakarta.servlet.http.HttpSession#getAttribute(Ljava/lang/String;)Ljava/lang/Object;*I
+
+__unknown_file (-
++
+session jakarta.servlet.http.HttpSession*4
+
+__unknown_file (
+
+%1java.lang.String2 getAttribute(Ljava/lang/String;)¥
+¢
+ (?
+%3boolean"	__compare*"
+
+__unknown_file (
+==*4
+
+__unknown_file (
+
+%2java.lang.Object*"
+
+__unknown_file (
+""*
+2
+1*Î
+startingBlock (,¦
+£
+ (
+%16"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*P
+
+__unknown_file (4
+2
+request'jakarta.servlet.http.HttpServletRequests
+q
+0 (72
+request'jakarta.servlet.http.HttpServletRequest"__annotation*#
+
+__unknown_file (
+
+%16¨
+¥
+ (
+%17"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*R
+
+__unknown_file (6
+4
+response(jakarta.servlet.http.HttpServletResponseu
+s
+1 (94
+response(jakarta.servlet.http.HttpServletResponse"__annotation*#
+
+__unknown_file (
+
+%17
+Œ
+ (
+%18"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*9
+
+__unknown_file (
+
+handlerjava.lang.Object\
+Z
+$ (+
+handlerjava.lang.Object"__annotation*#
+
+__unknown_file (
+
+%18*
+3*!
+1 ("
+ (
+"":>
+ (82
+request'jakarta.servlet.http.HttpServletRequest:@
+ (:4
+response(jakarta.servlet.http.HttpServletResponse:'
+ (+
+handlerjava.lang.ObjectB=;
+9es.storeapp.web.interceptors.AuthenticatedUserInterceptorHX

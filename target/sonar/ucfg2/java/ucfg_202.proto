@@ -1,0 +1,16 @@
+
+Bes.storeapp.web.session.ShoppingCart#getProducts()Ljava/util/List;o
+eC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/web/session/ShoppingCart.java ($"1*¯
+1 (|
+z
+ (
+%0java.util.List"__id*R
+
+__unknown_file (6*4&
+$es.storeapp.web.session.ShoppingCart"
+
+products""
+ (
+
+%0java.util.ListB(&
+$es.storeapp.web.session.ShoppingCartH

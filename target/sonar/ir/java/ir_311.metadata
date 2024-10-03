@@ -1,0 +1,6 @@
+es.storeapp.business.repositories.CommentRepository#findByUserAndProduct(Ljava/lang/Long;Ljava/lang/Long;)Les/storeapp/business/entities/Comment;
+8d50252ee17197346473abe6fb54cb74
+java.text.MessageFormat#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+==
+createQuery jakarta.persistence.EntityManager#createQuery(Ljava/lang/String;)Ljakarta/persistence/Query;
+getSingleResult jakarta.persistence.Query#getSingleResult()Ljava/lang/Object;

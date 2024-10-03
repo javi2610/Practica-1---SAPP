@@ -1,0 +1,11 @@
+es.storeapp.business.services.UserService#changePassword(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Les/storeapp/business/entities/User;
+9616e7f2812ad9df81d0d0b2db18a33c
+java.lang.String#equals(Ljava/lang/Object;)Z
+org.mindrot.jbcrypt.BCrypt#hashpw(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+==
+findByEmail es.storeapp.business.repositories.UserRepository#findByEmail(Ljava/lang/String;)Les/storeapp/business/entities/User;
+getResetPasswordToken es.storeapp.business.entities.User#getResetPasswordToken()Ljava/lang/String;
+setResetPasswordToken es.storeapp.business.entities.User#setResetPasswordToken(Ljava/lang/String;)V
+update es.storeapp.business.repositories.AbstractRepository#update(Ljava/lang/Object;)Ljava/lang/Object;
+toAuthenticationException es.storeapp.business.utils.ExceptionGenerationUtils#toAuthenticationException(Ljava/lang/String;Ljava/lang/String;)Les/storeapp/business/exceptions/AuthenticationException;
+setPassword es.storeapp.business.entities.User#setPassword(Ljava/lang/String;)V

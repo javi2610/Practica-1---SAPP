@@ -1,0 +1,153 @@
+
+¢es.storeapp.web.controller.OrderController#doGetOrdersPage(Les/storeapp/business/entities/User;Lorg/springframework/ui/Model;Ljava/util/Locale;)Ljava/lang/String;u
+kC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/web/controller/OrderController.java4 4(!"startingBlock*ê
+startingBlock4! 5(=æ
+ª
+3 3(*
+%11"
+__annotate*R
+
+__unknown_file (64
+2org.springframework.web.bind.annotation.GetMapping*H
+
+__unknown_file (,
+*
+user"es.storeapp.business.entities.Userƒ
+¡
+4" 4(K
+%12"
+__annotate*X
+
+__unknown_file (<:
+8org.springframework.web.bind.annotation.SessionAttribute*H
+
+__unknown_file (,
+*
+user"es.storeapp.business.entities.Userë
+é
+4Q 4(U*
+user"es.storeapp.business.entities.User"__annotation*#
+
+__unknown_file (
+
+%11*#
+
+__unknown_file (
+
+%12Æ
+´
+3 3(*
+%13"
+__annotate*R
+
+__unknown_file (64
+2org.springframework.web.bind.annotation.GetMapping*8
+
+__unknown_file (
+
+localejava.util.Locale[
+Y
+56 5(<
+localejava.util.Locale"__annotation*#
+
+__unknown_file (
+
+%13FD
+5" 5(.%
+modelorg.springframework.ui.Model"java.util.HashMap*
+6*ˇ
+47 7(_Í
+Á
+7 7(_"
+%4org.springframework.ui.Model"__mapSet*C
+
+__unknown_file ('
+%
+modelorg.springframework.ui.Model*4
+
+__unknown_file (
+
+%0java.lang.String*2
+
+__unknown_file (
+
+%3java.util.List*
+1*ª
+571 7(^¶£
+71 7(^
+%3java.util.List"[es.storeapp.business.services.OrderService#findByUserById(Ljava/lang/Long;)Ljava/util/List;*N
+
+__unknown_file (2
+0
+%1*es.storeapp.business.services.OrderService*2
+
+__unknown_file (
+
+%2java.lang.Long2 findByUserById(Ljava/lang/Long;)*
+4*…
+67 7(R
+P
+7 7(/
+%0java.lang.String"__id*&
+
+__unknown_file (
+
+orders£
+†
+71 7(=0
+%1*es.storeapp.business.services.OrderService"__id*\
+
+__unknown_file (@*>,
+*es.storeapp.web.controller.OrderController"
+orderService∫∑
+7M 7(]
+%2java.lang.Long">es.storeapp.business.entities.User#getUserId()Ljava/lang/Long;*H
+
+__unknown_file (,
+*
+user"es.storeapp.business.entities.User2getUserId()*
+5*Ã
+1; ;(R
+P
+; ;($
+%8java.lang.String"__id*&
+
+__unknown_file (
+
+Orders∑
+¥
+; ;($
+%9"Horg.springframework.web.servlet.ModelAndView#<init>(Ljava/lang/String;)V*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%8java.lang.Stringà
+Ö
+; ;($
+%10"template!Orders*J
+
+__unknown_file (.",
+*es.storeapp.web.controller.OrderController*C
+
+__unknown_file ('
+%
+modelorg.springframework.ui.Model*'
+
+__unknown_file (	
+/orders*'
+
+__unknown_file (	
+/orders"$
+; ;(%
+
+%8java.lang.String:6
+4" 4(V*
+user"es.storeapp.business.entities.User:1
+5" 5(.%
+modelorg.springframework.ui.Model:&
+5/ 5(<
+localejava.util.LocaleB.,
+*es.storeapp.web.controller.OrderControllerH

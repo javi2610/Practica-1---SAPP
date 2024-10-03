@@ -1,0 +1,3 @@
+es.storeapp.business.entities.User#toString()Ljava/lang/String;
+2ab978f541fa1fa800905066409c4444
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

@@ -1,0 +1,16 @@
+
+Fes.storeapp.business.entities.Category#getCategoryId()Ljava/lang/Long;q
+gC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/entities/Category.java ("1*´
+1   (€
+~
+   (
+%0java.lang.Long"__id*V
+
+__unknown_file (:*8(
+&es.storeapp.business.entities.Category"
+
+categoryId""
+   (
+
+%0java.lang.LongB*(
+&es.storeapp.business.entities.CategoryH

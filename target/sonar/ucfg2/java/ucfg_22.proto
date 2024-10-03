@@ -1,0 +1,125 @@
+
+[es.storeapp.business.services.OrderService#findByUserById(Ljava/lang/Long;)Ljava/util/List;u
+kC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/services/OrderService.javah h(%"startingBlock*§
+2k k(N
+L
+k k(
+%4org.slf4j.Logger"__id*"
+
+__unknown_file (
+""¼¹
+kV k(e
+%5java.lang.String"?es.storeapp.business.entities.User#getEmail()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+user"es.storeapp.business.entities.User2
+getEmail()³
+°
+k k(f
+%6java.lang.String"Wjava.text.MessageFormat#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*7
+
+__unknown_file ("
+java.text.MessageFormat*D
+
+__unknown_file ((&
+$Searching the orders of the user {0}*4
+
+__unknown_file (
+
+%5java.lang.StringÍÊ
+k k(g
+
+%7void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*4
+
+__unknown_file (
+
+%4org.slf4j.Logger*4
+
+__unknown_file (
+
+%6java.lang.String2debug(Ljava/lang/String;)*
+1*ï
+3i i("«
+¨
+i i("6
+%00es.storeapp.business.repositories.UserRepository"__id*^
+
+__unknown_file (B*@,
+*es.storeapp.business.services.OrderService"
+userRepositoryÄÁ
+i i(3(
+%1"es.storeapp.business.entities.User"aes.storeapp.business.repositories.AbstractRepository#findById(Ljava/lang/Long;)Ljava/lang/Object;*T
+
+__unknown_file (8
+6
+%00es.storeapp.business.repositories.UserRepository*6
+
+__unknown_file (
+
+userIdjava.lang.Long2findById(Ljava/lang/Long;)‡
+„
+i i(4*
+user"es.storeapp.business.entities.User"__id*F
+
+__unknown_file (*
+(
+%1"es.storeapp.business.entities.UserN
+L
+j j(
+%2org.slf4j.Logger"__id*"
+
+__unknown_file (
+""ˆ…
+j j("
+%3boolean""org.slf4j.Logger#isDebugEnabled()Z*4
+
+__unknown_file (
+
+%2org.slf4j.Logger2isDebugEnabled()*
+2
+1*®
+startingBlockh% h(2²
+¯
+g g(#
+%10"
+__annotate*X
+
+__unknown_file (<:
+8org.springframework.transaction.annotation.Transactional*6
+
+__unknown_file (
+
+userIdjava.lang.LongY
+W
+h+ h(1
+userIdjava.lang.Long"__annotation*#
+
+__unknown_file (
+
+%10*
+3*˜
+1m m(­
+ª
+m m(7
+%81es.storeapp.business.repositories.OrderRepository"__id*_
+
+__unknown_file (C*A,
+*es.storeapp.business.services.OrderService"
+orderRepository´±
+m m(3
+%9java.util.List"`es.storeapp.business.repositories.OrderRepository#findByUserId(Ljava/lang/Long;)Ljava/util/List;*U
+
+__unknown_file (9
+7
+%81es.storeapp.business.repositories.OrderRepository*6
+
+__unknown_file (
+
+userIdjava.lang.Long2findByUserId(Ljava/lang/Long;)""
+m m(4
+
+%9java.util.List:$
+h& h(1
+userIdjava.lang.LongB.,
+*es.storeapp.business.services.OrderServiceH

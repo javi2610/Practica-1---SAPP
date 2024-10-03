@@ -1,0 +1,15 @@
+
+aes.storeapp.web.forms.UserProfileForm#getImage()Lorg/springframework/web/multipart/MultipartFile;p
+fC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/web/forms/UserProfileForm.java@ @(!"1*ñ
+1A A(œ
+™
+A A(5
+%0/org.springframework.web.multipart.MultipartFile"__id*P
+
+__unknown_file (4*2'
+%es.storeapp.web.forms.UserProfileForm"
+image"C
+A A(7
+5
+%0/org.springframework.web.multipart.MultipartFileB)'
+%es.storeapp.web.forms.UserProfileFormH

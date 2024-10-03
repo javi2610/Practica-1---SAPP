@@ -1,0 +1,67 @@
+
+‘es.storeapp.business.repositories.CommentRepository#findByUserAndProduct(Ljava/lang/Long;Ljava/lang/Long;)Les/storeapp/business/entities/Comment;~
+tC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/repositories/CommentRepository.java ('"1*±
+
+1 (#¤
+¡
+ (#'
+%0!jakarta.persistence.EntityManager"__id*f
+
+__unknown_file (J*H5
+3es.storeapp.business.repositories.CommentRepository"
+entityManager‘
+Ž
+ (2
+%1java.lang.String"__id*d
+
+__unknown_file (HF
+DSELECT c FROM Comment c WHERE c.user.id = {0} and c.product.id = {1}à
+Ý
+0 (F
+%2java.lang.String"Wjava.text.MessageFormat#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*7
+
+__unknown_file ("
+java.text.MessageFormat*4
+
+__unknown_file (
+
+%1java.lang.String*6
+
+__unknown_file (
+
+userIdjava.lang.Long*9
+
+__unknown_file (
+
+	productIdjava.lang.Longª§
+ (G
+%3jakarta.persistence.Query"\jakarta.persistence.EntityManager#createQuery(Ljava/lang/String;)Ljakarta/persistence/Query;*E
+
+__unknown_file ()
+'
+%0!jakarta.persistence.EntityManager*4
+
+__unknown_file (
+
+%2java.lang.String2createQuery(Ljava/lang/String;)u
+s
+ (H"
+queryjakarta.persistence.Query"__id*=
+
+__unknown_file (!
+
+%3jakarta.persistence.Query¹¶
+ (0
+%4java.lang.Object"=jakarta.persistence.Query#getSingleResult()Ljava/lang/Object;*@
+
+__unknown_file ($
+"
+queryjakarta.persistence.Query2getSingleResult()"$
+ (1
+
+%4java.lang.Object:$
+( (4
+userIdjava.lang.Long:'
+5 (C
+	productIdjava.lang.LongB75
+3es.storeapp.business.repositories.CommentRepositoryH

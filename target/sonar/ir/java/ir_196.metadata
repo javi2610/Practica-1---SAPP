@@ -1,0 +1,6 @@
+es.storeapp.web.controller.UserController#doGetRegisterPage(Lorg/springframework/ui/Model;)Ljava/lang/String;
+3a6238a029bdae363be1d696984bb621
+es.storeapp.web.forms.UserProfileForm#instance-init#
+es.storeapp.web.forms.UserProfileForm#<init>()V
+==
+addAttribute org.springframework.ui.Model#addAttribute(Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/ui/Model;

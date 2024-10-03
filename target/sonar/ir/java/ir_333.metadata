@@ -1,0 +1,4 @@
+es.storeapp.business.services.UserService#findByEmail(Ljava/lang/String;)Les/storeapp/business/entities/User;
+09c740439cfedcf35685d7632e9c42c5
+==
+findByEmail es.storeapp.business.repositories.UserRepository#findByEmail(Ljava/lang/String;)Les/storeapp/business/entities/User;

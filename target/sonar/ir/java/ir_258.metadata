@@ -1,0 +1,4 @@
+es.storeapp.business.exceptions.InvalidStateException#<init>(Ljava/lang/String;)V
+55b4812a6d39ed76377678b4e6d9effa
+==
+<init> java.lang.Exception#<init>(Ljava/lang/String;)V

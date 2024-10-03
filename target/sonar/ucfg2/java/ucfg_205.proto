@@ -1,0 +1,17 @@
+
+5__sonar_lambda_1$es.storeapp.web.session.ShoppingCarto
+eC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/web/session/ShoppingCart.java% (B"1*þ
+10 (7ÇÄ
+0 (B
+%3java.lang.Integer"Ces.storeapp.business.entities.Product#getPrice()Ljava/lang/Integer;*N
+
+__unknown_file (2
+0
+product%es.storeapp.business.entities.Product2
+getPrice()"%
+0 (B
+
+%3java.lang.Integer:<
+% (,0
+product%es.storeapp.business.entities.ProductB
+java.util.function.Function

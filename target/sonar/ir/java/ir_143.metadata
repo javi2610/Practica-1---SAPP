@@ -1,0 +1,10 @@
+es.storeapp.web.config.WebMvcConfig#addResourceHandlers(Lorg/springframework/web/servlet/config/annotation/ResourceHandlerRegistry;)V
+596ec6a129f4eaac96ec39cfa35324d7
+java.io.File#<init>(Ljava/lang/String;)V
+java.io.File#instance-init#
+java.net.URI#toString()Ljava/lang/String;
+==
+addResourceLocations org.springframework.web.servlet.config.annotation.ResourceHandlerRegistration#addResourceLocations([Ljava/lang/String;)Lorg/springframework/web/servlet/config/annotation/ResourceHandlerRegistration;
+getResources es.storeapp.common.ConfigurationParameters#getResources()Ljava/lang/String;
+toURI java.io.File#toURI()Ljava/net/URI;
+addResourceHandler org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry#addResourceHandler([Ljava/lang/String;)Lorg/springframework/web/servlet/config/annotation/ResourceHandlerRegistration;

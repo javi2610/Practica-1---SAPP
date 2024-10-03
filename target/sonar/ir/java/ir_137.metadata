@@ -1,0 +1,6 @@
+es.storeapp.web.exceptions.ErrorHandlingUtils#handleAuthenticationException(Les/storeapp/business/exceptions/AuthenticationException;Ljava/lang/String;Ljava/lang/String;Lorg/springframework/ui/Model;Ljava/util/Locale;)Ljava/lang/String;
+ab098b391f524a84a9fe577aef72b7ef
+==
+addAttribute org.springframework.ui.Model#addAttribute(Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/ui/Model;
+getMessage java.lang.Throwable#getMessage()Ljava/lang/String;
+error org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Throwable;)V

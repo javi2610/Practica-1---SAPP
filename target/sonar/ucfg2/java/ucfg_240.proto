@@ -1,0 +1,16 @@
+
+Ces.storeapp.business.entities.Order#getOrderLines()Ljava/util/List;n
+dC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/entities/Order.javaR R(("1*°
+1S S(}
+{
+S S(
+%0java.util.List"__id*S
+
+__unknown_file (7*5%
+#es.storeapp.business.entities.Order"
+
+orderLines""
+S S(
+
+%0java.util.ListB'%
+#es.storeapp.business.entities.OrderH

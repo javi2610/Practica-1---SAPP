@@ -1,0 +1,4 @@
+es.storeapp.business.repositories.AbstractRepository#update(Ljava/lang/Object;)Ljava/lang/Object;
+c1a3d805b3402615cc459120719ff282
+==
+merge jakarta.persistence.EntityManager#merge(Ljava/lang/Object;)Ljava/lang/Object;

@@ -1,0 +1,4 @@
+es.storeapp.business.repositories.AbstractRepository#remove(Ljava/lang/Object;)V
+6b734e8733a88af4cfeeafd13ab82f94
+==
+remove jakarta.persistence.EntityManager#remove(Ljava/lang/Object;)V

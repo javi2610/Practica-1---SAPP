@@ -1,0 +1,16 @@
+es.storeapp.web.config.WebMvcConfig#addInterceptors(Lorg/springframework/web/servlet/config/annotation/InterceptorRegistry;)V
+64d805bf83fd0dbf2175d29fd9662bb7
+es.storeapp.web.interceptors.ShoppingCartInterceptor#<init>()V
+es.storeapp.web.interceptors.AutoLoginInterceptor#<init>(Les/storeapp/business/services/UserService;)V
+es.storeapp.web.interceptors.CSPInterceptor#instance-init#
+es.storeapp.web.interceptors.CSPInterceptor#<init>()V
+es.storeapp.web.interceptors.ShoppingCartInterceptor#instance-init#
+es.storeapp.web.interceptors.LoggerInterceptor#instance-init#
+es.storeapp.web.interceptors.AuthenticatedUserInterceptor#instance-init#
+es.storeapp.web.interceptors.AutoLoginInterceptor#instance-init#
+es.storeapp.web.interceptors.LoggerInterceptor#<init>()V
+es.storeapp.web.interceptors.AuthenticatedUserInterceptor#<init>()V
+==
+addPathPatterns org.springframework.web.servlet.config.annotation.InterceptorRegistration#addPathPatterns([Ljava/lang/String;)Lorg/springframework/web/servlet/config/annotation/InterceptorRegistration;
+excludePathPatterns org.springframework.web.servlet.config.annotation.InterceptorRegistration#excludePathPatterns([Ljava/lang/String;)Lorg/springframework/web/servlet/config/annotation/InterceptorRegistration;
+addInterceptor org.springframework.web.servlet.config.annotation.InterceptorRegistry#addInterceptor(Lorg/springframework/web/servlet/HandlerInterceptor;)Lorg/springframework/web/servlet/config/annotation/InterceptorRegistration;

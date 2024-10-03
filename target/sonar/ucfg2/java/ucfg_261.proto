@@ -1,0 +1,15 @@
+
+Ses.storeapp.business.exceptions.InstanceNotFoundException#getId()Ljava/lang/Object;„
+zC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/exceptions/InstanceNotFoundException.java ("1*À
+1 (Œ
+‰
+ (
+%0java.lang.Long"__id*a
+
+__unknown_file (E*C;
+9es.storeapp.business.exceptions.InstanceNotFoundException"
+id""
+ (
+
+%0java.lang.LongB=;
+9es.storeapp.business.exceptions.InstanceNotFoundExceptionH

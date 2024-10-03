@@ -1,0 +1,7 @@
+es.storeapp.business.utils.ExceptionGenerationUtils#toInvalidStateException(Ljava/lang/String;)Les/storeapp/business/exceptions/InvalidStateException;
+8560ff3b2aebe11cec79fc215fe73300
+es.storeapp.business.exceptions.InvalidStateException#instance-init#
+es.storeapp.business.exceptions.InvalidStateException#<init>(Ljava/lang/String;)V
+org.springframework.context.i18n.LocaleContextHolder#getLocale()Ljava/util/Locale;
+==
+getMessage org.springframework.context.MessageSource#getMessage(Ljava/lang/String;[Ljava/lang/Object;Ljava/util/Locale;)Ljava/lang/String;

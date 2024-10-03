@@ -1,0 +1,8 @@
+es.storeapp.web.controller.UserController#doGetResetPasswordPage(Ljava/lang/String;Ljava/lang/String;Lorg/springframework/ui/Model;)Ljava/lang/String;
+780a7531da9a679c42aacf6d51380d88
+es.storeapp.web.forms.ResetPasswordForm#instance-init#
+es.storeapp.web.forms.ResetPasswordForm#<init>()V
+==
+addAttribute org.springframework.ui.Model#addAttribute(Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/ui/Model;
+setEmail es.storeapp.web.forms.ResetPasswordForm#setEmail(Ljava/lang/String;)V
+setToken es.storeapp.web.forms.ResetPasswordForm#setToken(Ljava/lang/String;)V

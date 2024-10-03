@@ -1,0 +1,6 @@
+es.storeapp.business.services.UserService#init()V
+3541c577af8de6ffec42369617734645
+java.io.File#<init>(Ljava/lang/String;)V
+java.io.File#instance-init#
+==
+getResources es.storeapp.common.ConfigurationParameters#getResources()Ljava/lang/String;

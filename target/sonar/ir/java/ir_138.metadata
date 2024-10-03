@@ -1,0 +1,6 @@
+es.storeapp.web.exceptions.ErrorHandlingUtils#handleInvalidStateException(Les/storeapp/business/exceptions/InvalidStateException;Lorg/springframework/ui/Model;Ljava/util/Locale;)Ljava/lang/String;
+870f6de961a3f560e04ae0ebe8d1a073
+==
+addAttribute org.springframework.ui.Model#addAttribute(Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/ui/Model;
+getMessage java.lang.Throwable#getMessage()Ljava/lang/String;
+error org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Throwable;)V

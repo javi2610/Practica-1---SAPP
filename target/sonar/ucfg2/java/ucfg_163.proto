@@ -1,0 +1,76 @@
+
+mes.storeapp.web.controller.UserController#doGetRegisterPage(Lorg/springframework/ui/Model;)Ljava/lang/String;t
+jC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/web/controller/UserController.javaR R(#"startingBlock*f
+startingBlockR# R(0FD
+R$ R(/%
+modelorg.springframework.ui.Model"java.util.HashMap*
+1*≠	
+1S S([
+Y
+S S(6
+%0java.lang.String"__id*/
+
+__unknown_file (
+userProfileForm`^
+S< S(K+
+%1%es.storeapp.web.forms.UserProfileForm"%es.storeapp.web.forms.UserProfileFormè
+å
+S8 S(M
+%2"/es.storeapp.web.forms.UserProfileForm#<init>()V*I
+
+__unknown_file (-
++
+%1%es.storeapp.web.forms.UserProfileFormÅ
+˛
+S S(N"
+%3org.springframework.ui.Model"__mapSet*C
+
+__unknown_file ('
+%
+modelorg.springframework.ui.Model*4
+
+__unknown_file (
+
+%0java.lang.String*I
+
+__unknown_file (-
++
+%1%es.storeapp.web.forms.UserProfileFormS
+Q
+T T(*
+%4java.lang.String"__id*'
+
+__unknown_file (	
+Profile∑
+¥
+T T(*
+%5"Horg.springframework.web.servlet.ModelAndView#<init>(Ljava/lang/String;)V*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%4java.lang.Stringì
+ê
+T T(*
+%6"template!Profile*I
+
+__unknown_file (-"+
+)es.storeapp.web.controller.UserController*C
+
+__unknown_file ('
+%
+modelorg.springframework.ui.Model*-
+
+__unknown_file (
+/registration*-
+
+__unknown_file (
+/registration"$
+T T(+
+
+%4java.lang.String:1
+R$ R(/%
+modelorg.springframework.ui.ModelB-+
+)es.storeapp.web.controller.UserControllerH

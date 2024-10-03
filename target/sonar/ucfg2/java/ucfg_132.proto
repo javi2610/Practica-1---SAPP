@@ -1,0 +1,16 @@
+
+@es.storeapp.business.entities.User#getComments()Ljava/util/List;m
+cC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/entities/User.java} }($"1*­
+1~ ~(z
+x
+~ ~(
+%0java.util.List"__id*P
+
+__unknown_file (4*2$
+"es.storeapp.business.entities.User"
+
+comments""
+~ ~(
+
+%0java.util.ListB&$
+"es.storeapp.business.entities.UserH

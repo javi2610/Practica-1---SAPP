@@ -1,0 +1,93 @@
+
+Žes.storeapp.web.exceptions.ErrorHandlingUtils#handleUnexpectedException(Ljava/lang/Exception;Lorg/springframework/ui/Model;)Ljava/lang/String;x
+nC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/web/exceptions/ErrorHandlingUtils.javaA A(+"1*Ý
+1B B(N
+L
+B B(
+%0org.slf4j.Logger"__id*"
+
+__unknown_file (
+""Ÿœ
+B B(#
+%1java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*6
+
+__unknown_file (
+
+ejava.lang.Exception2getMessage()¯¬
+B B('
+
+%2void"@org.slf4j.Logger#error(Ljava/lang/String;Ljava/lang/Throwable;)V*4
+
+__unknown_file (
+
+%0org.slf4j.Logger*4
+
+__unknown_file (
+
+%1java.lang.String*6
+
+__unknown_file (
+
+ejava.lang.Exception2.error(Ljava/lang/String;Ljava/lang/Throwable;)X
+V
+C C(2
+%3java.lang.String"__id*,
+
+__unknown_file (
+errorMessageŸœ
+C4 C(B
+%4java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*6
+
+__unknown_file (
+
+ejava.lang.Exception2getMessage()ì
+é
+C C(C"
+%5org.springframework.ui.Model"__mapSet*C
+
+__unknown_file ('
+%
+modelorg.springframework.ui.Model*4
+
+__unknown_file (
+
+%3java.lang.String*4
+
+__unknown_file (
+
+%4java.lang.StringU
+S
+D D(.
+%6java.lang.String"__id*)
+
+__unknown_file (
+	exceptionî
+ë
+D D(2"
+%7org.springframework.ui.Model"__mapSet*C
+
+__unknown_file ('
+%
+modelorg.springframework.ui.Model*4
+
+__unknown_file (
+
+%6java.lang.String*6
+
+__unknown_file (
+
+ejava.lang.ExceptionQ
+O
+E E(#
+%8java.lang.String"__id*%
+
+__unknown_file (	
+error"$
+E E($
+
+%8java.lang.String:$
+A, A(8
+ejava.lang.Exception:1
+A9 A(D%
+modelorg.springframework.ui.ModelB1/
+-es.storeapp.web.exceptions.ErrorHandlingUtilsH

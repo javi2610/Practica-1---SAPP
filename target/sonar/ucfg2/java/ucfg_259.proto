@@ -1,0 +1,44 @@
+
+Ves.storeapp.business.repositories.CategoryRepository#findHighlighted()Ljava/util/List;
+uC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/repositories/CategoryRepository.java ()"1*²
+1 (#¥
+¢
+ (#'
+%0!jakarta.persistence.EntityManager"__id*g
+
+__unknown_file (K*I6
+4es.storeapp.business.repositories.CategoryRepository"
+entityManager
+}
+0 (F
+%1java.lang.String"__id*S
+
+__unknown_file (75
+3SELECT c FROM Category c WHERE c.highlighted = trueª§
+ (G
+%2jakarta.persistence.Query"\jakarta.persistence.EntityManager#createQuery(Ljava/lang/String;)Ljakarta/persistence/Query;*E
+
+__unknown_file ()
+'
+%0!jakarta.persistence.EntityManager*4
+
+__unknown_file (
+
+%1java.lang.String2createQuery(Ljava/lang/String;)u
+s
+ (H"
+queryjakarta.persistence.Query"__id*=
+
+__unknown_file (!
+
+%2jakarta.persistence.Query±®
+  (5
+%3java.util.List"9jakarta.persistence.Query#getResultList()Ljava/util/List;*@
+
+__unknown_file ($
+"
+queryjakarta.persistence.Query2getResultList()""
+ (6
+
+%3java.util.ListB86
+4es.storeapp.business.repositories.CategoryRepositoryH

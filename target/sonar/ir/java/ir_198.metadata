@@ -1,0 +1,6 @@
+es.storeapp.web.controller.UserController#doGetChangePasswordPage(Lorg/springframework/ui/Model;Les/storeapp/business/entities/User;)Ljava/lang/String;
+3797e592e03b5a787207b3b743028ad8
+es.storeapp.web.forms.ChangePasswordForm#<init>()V
+es.storeapp.web.forms.ChangePasswordForm#instance-init#
+==
+addAttribute org.springframework.ui.Model#addAttribute(Ljava/lang/String;Ljava/lang/Object;)Lorg/springframework/ui/Model;

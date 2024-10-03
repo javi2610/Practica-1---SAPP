@@ -1,0 +1,105 @@
+
+xes.storeapp.business.repositories.ProductRepository#findByCategory(Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;~
+tC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/repositories/ProductRepository.java ('"startingBlock*î
+startingBlock' (Ló
+î
+ ("
+%5"
+__annotate*:
+
+__unknown_file (
+java.lang.SuppressWarnings*:
+
+__unknown_file (
+
+categoryjava.lang.String\
+Z
+/ (7
+categoryjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%5ö
+ó
+ ("
+%6"
+__annotate*:
+
+__unknown_file (
+java.lang.SuppressWarnings*=
+
+__unknown_file (!
+
+orderColumnjava.lang.String_
+]
+@ (K
+orderColumnjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%6*
+1*±
+
+1 (#§
+°
+ (#'
+%0!jakarta.persistence.EntityManager"__id*f
+
+__unknown_file (J*H5
+3es.storeapp.business.repositories.ProductRepository"
+entityManagerì
+ê
+E ([
+%1java.lang.String"__id*f
+
+__unknown_file (JH
+FSELECT p FROM Product p WHERE p.category.name = ''{0}'' ORDER BY p.{1}Ë
+Â
+0 (&
+%2java.lang.String"Wjava.text.MessageFormat#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*7
+
+__unknown_file ("
+java.text.MessageFormat*4
+
+__unknown_file (
+
+%1java.lang.String*:
+
+__unknown_file (
+
+categoryjava.lang.String*=
+
+__unknown_file (!
+
+orderColumnjava.lang.String™ß
+ ('
+%3jakarta.persistence.Query"\jakarta.persistence.EntityManager#createQuery(Ljava/lang/String;)Ljakarta/persistence/Query;*E
+
+__unknown_file ()
+'
+%0!jakarta.persistence.EntityManager*4
+
+__unknown_file (
+
+%2java.lang.String2createQuery(Ljava/lang/String;)u
+s
+ (("
+queryjakarta.persistence.Query"__id*=
+
+__unknown_file (!
+
+%3jakarta.persistence.Query±Æ
+ (4
+%4java.util.List"9jakarta.persistence.Query#getResultList()Ljava/util/List;*@
+
+__unknown_file ($
+"
+queryjakarta.persistence.Query2getResultList()""
+ (5
+
+%4java.util.List:(
+( (8
+categoryjava.lang.String:+
+9 (K
+orderColumnjava.lang.StringB75
+3es.storeapp.business.repositories.ProductRepositoryH

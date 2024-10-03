@@ -1,0 +1,5 @@
+es.storeapp.business.repositories.CategoryRepository#findHighlighted()Ljava/util/List;
+f96b7a8d231590b4e1bc6fadf25d717b
+==
+createQuery jakarta.persistence.EntityManager#createQuery(Ljava/lang/String;)Ljakarta/persistence/Query;
+getResultList jakarta.persistence.Query#getResultList()Ljava/util/List;

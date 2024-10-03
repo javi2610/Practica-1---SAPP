@@ -1,0 +1,24 @@
+es.storeapp.business.services.OrderService#create(Les/storeapp/business/entities/User;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;Ljava/util/List;)Les/storeapp/business/entities/Order;
+fd16fd40409f9d86073727a8911c10d2
+es.storeapp.business.entities.Order#instance-init#
+es.storeapp.business.entities.OrderLine#instance-init#
+java.lang.System#currentTimeMillis()J
+es.storeapp.business.entities.Order#<init>()V
+es.storeapp.business.entities.OrderLine#<init>()V
+==
+setPrice es.storeapp.business.entities.OrderLine#setPrice(Ljava/lang/Integer;)V
+setPrice es.storeapp.business.entities.Order#setPrice(Ljava/lang/Integer;)V
+getSales es.storeapp.business.entities.Product#getSales()Ljava/lang/Integer;
+getAddress es.storeapp.business.entities.User#getAddress()Ljava/lang/String;
+setProduct es.storeapp.business.entities.OrderLine#setProduct(Les/storeapp/business/entities/Product;)V
+setAddress es.storeapp.business.entities.Order#setAddress(Ljava/lang/String;)V
+getOrderId es.storeapp.business.entities.Order#getOrderId()Ljava/lang/Long;
+setName es.storeapp.business.entities.Order#setName(Ljava/lang/String;)V
+setOrder es.storeapp.business.entities.OrderLine#setOrder(Les/storeapp/business/entities/Order;)V
+create es.storeapp.business.repositories.AbstractRepository#create(Ljava/lang/Object;)Ljava/lang/Object;
+setUser es.storeapp.business.entities.Order#setUser(Les/storeapp/business/entities/User;)V
+findById es.storeapp.business.repositories.AbstractRepository#findById(Ljava/lang/Long;)Ljava/lang/Object;
+setState es.storeapp.business.entities.Order#setState(Les/storeapp/business/entities/OrderState;)V
+setTimestamp es.storeapp.business.entities.Order#setTimestamp(Ljava/lang/Long;)V
+getPrice es.storeapp.business.entities.Product#getPrice()Ljava/lang/Integer;
+setSales es.storeapp.business.entities.Product#setSales(Ljava/lang/Integer;)V

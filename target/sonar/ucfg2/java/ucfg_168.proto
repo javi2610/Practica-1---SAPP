@@ -1,0 +1,837 @@
+
+¢es.storeapp.web.controller.UserController#doLogin(Les/storeapp/web/forms/LoginForm;Lorg/springframework/validation/BindingResult;Ljava/lang/String;Ljakarta/servlet/http/HttpSession;Ljakarta/servlet/http/HttpServletResponse;Ljava/util/Locale;Lorg/springframework/ui/Model;)Ljava/lang/String;t
+jC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/web/controller/UserController.javax x("startingBlock*ö
+24
+ç ç(KÅ
+
+
+ç ç(K'
+bufferjava.io.ByteArrayOutputStream"__id*B
+
+__unknown_file (&
+$
+%23java.io.ByteArrayOutputStream*
+23*Î
+25
+å å(=x
+v
+
+å å(=#
+encoderjava.util.Base64$Encoder"__id*=
+
+__unknown_file (!
+
+%22java.util.Base64$EncoderSQ
+
+ç3 ç(H$
+%23java.io.ByteArrayOutputStream"java.io.ByteArrayOutputStreamÉ
+Ä
+
+ç/ ç(J
+%24"'java.io.ByteArrayOutputStream#<init>()V*B
+
+__unknown_file (&
+$
+%23java.io.ByteArrayOutputStream*
+24*¥
+26
+å) å(/õ
+ò
+
+å) å(<
+%22java.util.Base64$Encoder"7java.util.Base64#getEncoder()Ljava/util/Base64$Encoder;*0
+
+__unknown_file ("
+java.util.Base64*
+25*Ê
+28
+ã5 ã(> «
+
+ã5 ã(N
+%21java.lang.Boolean"Bes.storeapp.web.forms.LoginForm#getRememberMe()Ljava/lang/Boolean;*J
+
+__unknown_file (.
+,
+	loginFormes.storeapp.web.forms.LoginForm2getRememberMe()*
+26
+4*∆
+29
+ã- ã(1™
+ß
+
+ã ã(1
+%20boolean"	__compare*"
+
+__unknown_file (
+!=*6
+
+__unknown_file (
+
+%19java.lang.Boolean*"
+
+__unknown_file (
+""*
+4
+28*„
+30
+ã ã( «
+
+ã ã()
+%19java.lang.Boolean"Bes.storeapp.web.forms.LoginForm#getRememberMe()Ljava/lang/Boolean;*J
+
+__unknown_file (.
+,
+	loginFormes.storeapp.web.forms.LoginForm2getRememberMe()*
+29*Î
+31
+â â(Y“œ
+
+â â(Y
+%18void"+org.slf4j.Logger#debug(Ljava/lang/String;)V*5
+
+__unknown_file (
+
+%15org.slf4j.Logger*5
+
+__unknown_file (
+
+%17java.lang.String2debug(Ljava/lang/String;)*
+30*æ
+32
+â â(X•
+¢
+
+â â(X
+%17java.lang.String"Wjava.text.MessageFormat#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*7
+
+__unknown_file ("
+java.text.MessageFormat*2
+
+__unknown_file (
+User {0} logged in*5
+
+__unknown_file (
+
+%16java.lang.String*
+31*´
+33
+â â(Q
+O
+
+â â(
+%15org.slf4j.Logger"__id*"
+
+__unknown_file (
+""øº
+
+âH â(W
+%16java.lang.String"?es.storeapp.business.entities.User#getEmail()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+user"es.storeapp.business.entities.User2
+getEmail()*
+32*¸
+35
+à à(Q
+O
+
+à à(
+%13org.slf4j.Logger"__id*"
+
+__unknown_file (
+""åâ
+
+à à(&
+%14boolean""org.slf4j.Logger#isDebugEnabled()Z*5
+
+__unknown_file (
+
+%13org.slf4j.Logger2isDebugEnabled()*
+30
+33*œ
+13
+î î(∑¥
+
+î î(.
+%40void"Rjakarta.servlet.http.HttpServletResponse#addCookie(Ljakarta/servlet/http/Cookie;)V*R
+
+__unknown_file (6
+4
+response(jakarta.servlet.http.HttpServletResponse*G
+
+__unknown_file (+
+)
+
+userCookiejakarta.servlet.http.Cookie2(addCookie(Ljakarta/servlet/http/Cookie;)*
+4*Ì
+36
+Ü Ü(Sä
+á
+
+Ü Ü(S*
+user"es.storeapp.business.entities.User"__id*G
+
+__unknown_file (+
+)
+%10"es.storeapp.business.entities.UserS
+Q
+
+á! á(7
+%11java.lang.String"__id*$
+
+__unknown_file (
+userÚÔ
+
+á á(>
+%12void"Tjakarta.servlet.http.HttpSession#setAttribute(Ljava/lang/String;Ljava/lang/Object;)V*I
+
+__unknown_file (-
++
+session jakarta.servlet.http.HttpSession*5
+
+__unknown_file (
+
+%11java.lang.String*H
+
+__unknown_file (,
+*
+user"es.storeapp.business.entities.User22setAttribute(Ljava/lang/String;Ljava/lang/Object;)*
+35*ﬂ
+14
+ë í(JÅ
+
+
+ë í(J)
+
+userCookiejakarta.servlet.http.Cookie"__id*@
+
+__unknown_file ($
+"
+%37jakarta.servlet.http.Cookie¬ø
+
+ì ì(,
+%39void")jakarta.servlet.http.Cookie#setMaxAge(I)V*G
+
+__unknown_file (+
+)
+
+userCookiejakarta.servlet.http.Cookie*"
+
+__unknown_file (2Äı$2setMaxAge(I)*
+13*∂
+37
+Ü Ü(Sùö
+
+Ü Ü(S)
+%10"es.storeapp.business.entities.User"yes.storeapp.business.services.UserService#login(Ljava/lang/String;Ljava/lang/String;)Les/storeapp/business/entities/User;*M
+
+__unknown_file (1
+/
+%7)es.storeapp.business.services.UserService*4
+
+__unknown_file (
+
+%8java.lang.String*4
+
+__unknown_file (
+
+%9java.lang.String2+login(Ljava/lang/String;Ljava/lang/String;)*
+36*˚
+15
+ë$ í(IOM
+
+ë( ë(."
+%37jakarta.servlet.http.Cookie"jakarta.servlet.http.Cookieë
+é
+
+ë$ í(I
+%38"Ijakarta.servlet.http.Cookie#<init>(Ljava/lang/String;Ljava/lang/String;)V*@
+
+__unknown_file ($
+"
+%37jakarta.servlet.http.Cookie*5
+
+__unknown_file (
+
+%32java.lang.String*5
+
+__unknown_file (
+
+%35java.lang.String*
+14*‹
+38
+Ü; Ü(D√¿
+
+Ü; Ü(R
+%9java.lang.String"?es.storeapp.web.forms.LoginForm#getPassword()Ljava/lang/String;*J
+
+__unknown_file (.
+,
+	loginFormes.storeapp.web.forms.LoginForm2getPassword()*
+37*Ï
+16
+í í(H97
+
+í í("
+%35java.lang.String"java.lang.Stringò
+ï
+
+í í(H
+%36"java.lang.String#<init>([B)V*5
+
+__unknown_file (
+
+%35java.lang.String*+
+
+__unknown_file (
+
+%34byte[]*
+15*˚
+39
+Ü Ü(¢
+ü
+
+Ü Ü(/
+%7)es.storeapp.business.services.UserService"__id*Z
+
+__unknown_file (>*<+
+)es.storeapp.web.controller.UserController"
+userServiceΩ∫
+
+Ü% Ü(9
+%8java.lang.String"<es.storeapp.web.forms.LoginForm#getEmail()Ljava/lang/String;*J
+
+__unknown_file (.
+,
+	loginFormes.storeapp.web.forms.LoginForm2
+getEmail()*
+38*⁄
+17
+í# í(G¡æ
+
+í# í(G
+%34byte[]"%java.util.Base64$Encoder#encode([B)[B*A
+
+__unknown_file (%
+#
+encoderjava.util.Base64$Encoder*+
+
+__unknown_file (
+
+%33byte[]2
+encode([B)*
+16*ñ
+18
+ë/ ë(8X
+V
+
+ë/ ë(O
+%32java.lang.String"__id*)
+
+__unknown_file (
+	user-info£†
+
+í2 í(F
+%33byte[]"-java.io.ByteArrayOutputStream#toByteArray()[B*E
+
+__unknown_file ()
+'
+bufferjava.io.ByteArrayOutputStream2toByteArray()*
+17*ò
+19
+è è(]ˇ¸
+
+è è(]
+%31void"6java.beans.XMLEncoder#writeObject(Ljava/lang/Object;)V*A
+
+__unknown_file (%
+#
+
+xmlEncoderjava.beans.XMLEncoder*E
+
+__unknown_file ()
+'
+%29 es.storeapp.web.cookies.UserInfo2writeObject(Ljava/lang/Object;)*
+18*©
+1
+† †(X
+V
+
+† †(&
+%59java.lang.String"__id*)
+
+__unknown_file (
+	redirect:P
+N
+
+†) †(@
+%60java.lang.String"__id*!
+
+__unknown_file (
+/Ñ
+Å
+
+† †(@
+%61java.lang.String"__concat*'
+
+† †(&
+
+%59java.lang.String*'
+
+†) †(@
+
+%60java.lang.Stringª
+∏
+
+† †(@
+%62"Horg.springframework.web.servlet.ModelAndView#<init>(Ljava/lang/String;)V*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+%61java.lang.String"'
+
+† †(A
+
+%61java.lang.String*ÿ
+2
+û û(X
+V
+
+û û(*
+%56java.lang.String"__id*)
+
+__unknown_file (
+	redirect:Ö
+Ç
+
+û û(1
+%57java.lang.String"__concat*'
+
+û û(*
+
+%56java.lang.String*(
+
+û- û(1
+
+nextjava.lang.Stringª
+∏
+
+û û(1
+%58"Horg.springframework.web.servlet.ModelAndView#<init>(Ljava/lang/String;)V*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+%57java.lang.String"'
+
+û û(2
+
+%57java.lang.String*¿
+3
+ù ù( ìê
+
+ù ù('
+%53java.lang.String")java.lang.String#trim()Ljava/lang/String;*6
+
+__unknown_file (
+
+nextjava.lang.String2trim()wu
+
+ù ù(0
+
+%54int"java.lang.String#length()I*5
+
+__unknown_file (
+
+%53java.lang.String2length()ó
+î
+
+ù ù(4
+%55boolean"	__compare*!
+
+__unknown_file (
+>*(
+
+__unknown_file (
+
+
+%54int*
+
+__unknown_file (2 *
+2
+1*Ö
+startingBlockx ~(&Ä
+~
+
+__unknown_file (
+%63"__id*U
+
+__unknown_file (9*7
+,
+	loginFormes.storeapp.web.forms.LoginForm"
+emailÑ
+Å
+
+__unknown_file (
+%64"__id*X
+
+__unknown_file (<*:
+,
+	loginFormes.storeapp.web.forms.LoginForm"
+
+password~
+|
+x x( 
+%65"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*#
+
+__unknown_file (
+
+%63ù
+ö
+x! x(0
+%66"
+__annotate*V
+
+__unknown_file (:8
+6org.springframework.web.bind.annotation.ModelAttribute*#
+
+__unknown_file (
+
+%63û
+õ
+x; x(D7
+,
+	loginFormes.storeapp.web.forms.LoginForm"
+email"__annotation*#
+
+__unknown_file (
+
+%65*#
+
+__unknown_file (
+
+%66~
+|
+x x( 
+%67"
+__annotate*8
+
+__unknown_file (
+jakarta.validation.Valid*#
+
+__unknown_file (
+
+%64ù
+ö
+x! x(0
+%68"
+__annotate*V
+
+__unknown_file (:8
+6org.springframework.web.bind.annotation.ModelAttribute*#
+
+__unknown_file (
+
+%64°
+û
+x; x(D:
+,
+	loginFormes.storeapp.web.forms.LoginForm"
+
+password"__annotation*#
+
+__unknown_file (
+
+%67*#
+
+__unknown_file (
+
+%68Æ
+´
+z z(V
+%69"
+__annotate*T
+
+__unknown_file (86
+4org.springframework.web.bind.annotation.RequestParam*6
+
+__unknown_file (
+
+nextjava.lang.StringY
+W
+z^ z(b
+nextjava.lang.String"__annotation*#
+
+__unknown_file (
+
+%69¿
+Ω
+w w(*
+%70"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.PostMapping*I
+
+__unknown_file (-
++
+session jakarta.servlet.http.HttpSessionl
+j
+{& {(-+
+session jakarta.servlet.http.HttpSession"__annotation*#
+
+__unknown_file (
+
+%70…
+∆
+w w(*
+%71"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.PostMapping*R
+
+__unknown_file (6
+4
+response(jakarta.servlet.http.HttpServletResponseu
+s
+|. |(64
+response(jakarta.servlet.http.HttpServletResponse"__annotation*#
+
+__unknown_file (
+
+%71Ø
+¨
+w w(*
+%72"
+__annotate*S
+
+__unknown_file (75
+3org.springframework.web.bind.annotation.PostMapping*8
+
+__unknown_file (
+
+localejava.util.Locale[
+Y
+}! }('
+localejava.util.Locale"__annotation*#
+
+__unknown_file (
+
+%72FD
+~ ~(%%
+modelorg.springframework.ui.Model"java.util.HashMap*
+42*ƒ
+4
+ù ù(™
+ß
+
+ù ù(
+%52boolean"	__compare*"
+
+__unknown_file (
+!=*6
+
+__unknown_file (
+
+nextjava.lang.String*"
+
+__unknown_file (
+""*
+3
+1*|
+40
+Ñ Ñ(d
+b
+
+Ñ Ñ(*
+user"es.storeapp.business.entities.User"__id*"
+
+__unknown_file (
+""*
+39*Ã
+41
+Ä Ä(≠
+™
+
+Ä Ä(3
+%1-es.storeapp.web.exceptions.ErrorHandlingUtils"__id*a
+
+__unknown_file (E*C+
+)es.storeapp.web.controller.UserController"
+errorHandlingUtilsk
+i
+
+Å Å(?
+%2java.lang.String"__id*=
+
+__unknown_file (!
+auth.invalid.user.or.password€ÿ
+
+Ä Å(O
+%3java.lang.String"»es.storeapp.web.exceptions.ErrorHandlingUtils#handleInvalidFormError(Lorg/springframework/validation/BindingResult;Ljava/lang/String;Lorg/springframework/ui/Model;Ljava/util/Locale;)Ljava/lang/String;*Q
+
+__unknown_file (5
+3
+%1-es.storeapp.web.exceptions.ErrorHandlingUtils*T
+
+__unknown_file (8
+6
+result,org.springframework.validation.BindingResult*4
+
+__unknown_file (
+
+%2java.lang.String*C
+
+__unknown_file ('
+%
+modelorg.springframework.ui.Model*8
+
+__unknown_file (
+
+localejava.util.Locale2àhandleInvalidFormError(Lorg/springframework/validation/BindingResult;Ljava/lang/String;Lorg/springframework/ui/Model;Ljava/util/Locale;)S
+Q
+
+Ç Ç('
+%4java.lang.String"__id*%
+
+__unknown_file (	
+Loginπ
+∂
+
+Ç Ç('
+%5"Horg.springframework.web.servlet.ModelAndView#<init>(Ljava/lang/String;)V*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%4java.lang.StringÖ
+Ç
+
+Ç Ç('
+%6"template!Login*I
+
+__unknown_file (-"+
+)es.storeapp.web.controller.UserController*C
+
+__unknown_file ('
+%
+modelorg.springframework.ui.Model*&
+
+__unknown_file (
+
+/login*&
+
+__unknown_file (
+
+/login"&
+
+Ç Ç((
+
+%4java.lang.String*Œ
+42 (≥∞
+ (
+%0boolean"2org.springframework.validation.Errors#hasErrors()Z*T
+
+__unknown_file (8
+6
+result,org.springframework.validation.BindingResult2hasErrors()*
+40
+41*è
+20
+è+ è(\YW
+
+è/ è(7'
+%29 es.storeapp.web.cookies.UserInfo" es.storeapp.web.cookies.UserInfoõ
+ò
+
+è+ è(\
+%30"Nes.storeapp.web.cookies.UserInfo#<init>(Ljava/lang/String;Ljava/lang/String;)V*E
+
+__unknown_file ()
+'
+%29 es.storeapp.web.cookies.UserInfo*5
+
+__unknown_file (
+
+%27java.lang.String*5
+
+__unknown_file (
+
+%28java.lang.String*
+19*ﬁ
+21
+èI è(M≈¬
+
+èI è([
+%28java.lang.String"Bes.storeapp.business.entities.User#getPassword()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+user"es.storeapp.business.entities.User2getPassword()*
+20*œ
+22
+é é(Cu
+s
+
+é é(C#
+
+xmlEncoderjava.beans.XMLEncoder"__id*:
+
+__unknown_file (
+
+%25java.beans.XMLEncoderøº
+
+è8 è(G
+%27java.lang.String"?es.storeapp.business.entities.User#getEmail()Ljava/lang/String;*H
+
+__unknown_file (,
+*
+user"es.storeapp.business.entities.User2
+getEmail()*
+21*Æ
+23
+é< é(BCA
+
+é1 é(;
+%25java.beans.XMLEncoder"java.beans.XMLEncoder–
+Õ
+
+é- é(C
+%26"5java.beans.XMLEncoder#<init>(Ljava/io/OutputStream;)V*:
+
+__unknown_file (
+
+%25java.beans.XMLEncoder*E
+
+__unknown_file ()
+'
+bufferjava.io.ByteArrayOutputStream*
+22:8
+x x(E,
+	loginFormes.storeapp.web.forms.LoginForm:B
+y y(/6
+result,org.springframework.validation.BindingResult:$
+z z(c
+nextjava.lang.String:7
+{ {(.+
+session jakarta.servlet.http.HttpSession:@
+| |(74
+response(jakarta.servlet.http.HttpServletResponse:&
+} }((
+localejava.util.Locale:1
+~ ~(%%
+modelorg.springframework.ui.ModelB-+
+)es.storeapp.web.controller.UserControllerH

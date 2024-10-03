@@ -1,0 +1,4 @@
+es.storeapp.web.interceptors.CSPInterceptor#preHandle(Ljakarta/servlet/http/HttpServletRequest;Ljakarta/servlet/http/HttpServletResponse;Ljava/lang/Object;)Z
+8db68205c564336aefb69f54e09eaace
+==
+setHeader jakarta.servlet.http.HttpServletResponse#setHeader(Ljava/lang/String;Ljava/lang/String;)V

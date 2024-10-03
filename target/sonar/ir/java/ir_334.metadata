@@ -1,0 +1,7 @@
+es.storeapp.business.services.UserService#login(Ljava/lang/String;Ljava/lang/String;)Les/storeapp/business/entities/User;
+cdffcbd2a25f2ba48d1a78209bc7c56c
+org.mindrot.jbcrypt.BCrypt#hashpw(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+==
+findByEmailAndPassword es.storeapp.business.repositories.UserRepository#findByEmailAndPassword(Ljava/lang/String;Ljava/lang/String;)Les/storeapp/business/entities/User;
+existsUser es.storeapp.business.repositories.UserRepository#existsUser(Ljava/lang/String;)Z
+toAuthenticationException es.storeapp.business.utils.ExceptionGenerationUtils#toAuthenticationException(Ljava/lang/String;Ljava/lang/String;)Les/storeapp/business/exceptions/AuthenticationException;

@@ -1,0 +1,180 @@
+
+ôes.storeapp.web.controller.ProductController#doGetProductsPage(Les/storeapp/web/forms/ProductSearchForm;Lorg/springframework/ui/Model;)Ljava/lang/String;w
+mC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/web/controller/ProductController.java' '(#"startingBlock*û
+startingBlock'# '(^ç
+ä
+
+__unknown_file (
+%12"__id*a
+
+__unknown_file (E*C
+5
+
+searchForm'es.storeapp.web.forms.ProductSearchForm"
+
+categoryù
+ö
+'$ '(3
+%13"
+__annotate*V
+
+__unknown_file (:8
+6org.springframework.web.bind.annotation.ModelAttribute*#
+
+__unknown_file (
+
+%12Ö
+Ç
+'F '(PC
+5
+
+searchForm'es.storeapp.web.forms.ProductSearchForm"
+
+category"__annotation*#
+
+__unknown_file (
+
+%13FD
+'R '(]%
+modelorg.springframework.ui.Model"java.util.HashMap*
+1*Ú
+1(! ((/©
+¶
+(! ((/2
+%0,es.storeapp.business.services.ProductService"__id*`
+
+__unknown_file (D*B.
+,es.storeapp.web.controller.ProductController"
+productService“œ
+(= ((U
+%1java.lang.String"Ges.storeapp.web.forms.ProductSearchForm#getCategory()Ljava/lang/String;*S
+
+__unknown_file (7
+5
+
+searchForm'es.storeapp.web.forms.ProductSearchForm2getCategory()¨©
+(! ((V
+%2java.util.List"]es.storeapp.business.services.ProductService#findProducts(Ljava/lang/String;)Ljava/util/List;*P
+
+__unknown_file (4
+2
+%0,es.storeapp.business.services.ProductService*4
+
+__unknown_file (
+
+%1java.lang.String2 findProducts(Ljava/lang/String;)b
+`
+( ((W
+productsjava.util.List"__id*2
+
+__unknown_file (
+
+%2java.util.List©
+¶
+)$ )(22
+%3,es.storeapp.business.services.ProductService"__id*`
+
+__unknown_file (D*B.
+,es.storeapp.web.controller.ProductController"
+productService‹Ÿ
+)$ )(F
+%4java.util.List"Pes.storeapp.business.services.ProductService#findAllCategories()Ljava/util/List;*P
+
+__unknown_file (4
+2
+%3,es.storeapp.business.services.ProductService2findAllCategories()d
+b
+) )(G
+
+categoriesjava.util.List"__id*2
+
+__unknown_file (
+
+%4java.util.ListT
+R
+* *(-
+%5java.lang.String"__id*(
+
+__unknown_file (
+
+products
+Ì
+* *(8"
+%6org.springframework.ui.Model"__mapSet*C
+
+__unknown_file ('
+%
+modelorg.springframework.ui.Model*4
+
+__unknown_file (
+
+%5java.lang.String*8
+
+__unknown_file (
+
+productsjava.util.ListV
+T
++ +(/
+%7java.lang.String"__id**
+
+__unknown_file (
+
+categoriesÚ
+Ô
++ +(<"
+%8org.springframework.ui.Model"__mapSet*C
+
+__unknown_file ('
+%
+modelorg.springframework.ui.Model*4
+
+__unknown_file (
+
+%7java.lang.String*:
+
+__unknown_file (
+
+
+categoriesjava.util.ListT
+R
+, ,(&
+%9java.lang.String"__id*(
+
+__unknown_file (
+
+Products∏
+µ
+, ,(&
+%10"Horg.springframework.web.servlet.ModelAndView#<init>(Ljava/lang/String;)V*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%9java.lang.Stringê
+ç
+, ,(&
+%11"template!Products*L
+
+__unknown_file (0".
+,es.storeapp.web.controller.ProductController*C
+
+__unknown_file ('
+%
+modelorg.springframework.ui.Model*)
+
+__unknown_file (
+	/products*)
+
+__unknown_file (
+	/products"$
+, ,('
+
+%9java.lang.String:A
+'$ '(Q5
+
+searchForm'es.storeapp.web.forms.ProductSearchForm:1
+'R '(]%
+modelorg.springframework.ui.ModelB0.
+,es.storeapp.web.controller.ProductControllerH

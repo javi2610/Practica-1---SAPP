@@ -1,0 +1,15 @@
+
+@es.storeapp.business.entities.Order#getOrderId()Ljava/lang/Long;n
+dC:/UNI/Ciber/1Cuatri/SAPP/Practica1/store-app/src/main/java/es/storeapp/business/entities/Order.java* *("1*­
+1+ +(z
+x
++ +(
+%0java.lang.Long"__id*P
+
+__unknown_file (4*2%
+#es.storeapp.business.entities.Order"	
+orderId""
++ +(
+
+%0java.lang.LongB'%
+#es.storeapp.business.entities.OrderH

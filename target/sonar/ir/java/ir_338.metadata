@@ -1,0 +1,10 @@
+es.storeapp.business.services.UserService#deleteProfileImage(Ljava/lang/Long;Ljava/lang/String;)V
+75d15d5738bb04ba2075b57bf1248d75
+java.lang.String#length()I
+java.lang.Long#toString()Ljava/lang/String;
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+java.io.File#instance-init#
+java.nio.file.Files#delete(Ljava/nio/file/Path;)V
+java.lang.String#trim()Ljava/lang/String;
+==
+toPath java.io.File#toPath()Ljava/nio/file/Path;

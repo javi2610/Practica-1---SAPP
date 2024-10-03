@@ -1,0 +1,4 @@
+es.storeapp.business.repositories.AbstractRepository#create(Ljava/lang/Object;)Ljava/lang/Object;
+ad0cb53a2a806a769706610451efd9b7
+==
+persist jakarta.persistence.EntityManager#persist(Ljava/lang/Object;)V
